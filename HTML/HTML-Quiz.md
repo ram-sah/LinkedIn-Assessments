@@ -86,15 +86,15 @@
 - [ ]  It downloads the script from the server when resources allow.
 
 #### Q5. What is the difference between the `<svg>` and `<canvas>` tags?
-```
-[ ] <svg> integrates with JavaScript, while <canvas> does not.
 
-[x] <svg> produces vector graphics, while <canvas> produces raster graphics.
+- [ ] `<svg>` integrates with JavaScript, while `<canvas>` does not.
 
-[ ] <svg> produces raster graphics, while <canvas> produces vector graphics.
+- [x] `<svg>` produces vector graphics, while `<canvas>` produces raster graphics.
 
-[ ] <svg> cannot be used as a background image, while <canvas> can be used as a background.
-```
+- [ ] `<svg>` produces raster graphics, while `<canvas>` produces vector graphics.
+
+- [ ] `<svg>` cannot be used as a background image, while `<canvas>` can be used as a background.
+
 #### Q6. What is the purpose of `<caption>`?
 ```
 [ ] <caption> provides captions for <audio>, <video>, <img>, and <table>.

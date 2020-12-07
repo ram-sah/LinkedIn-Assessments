@@ -17,7 +17,7 @@
 
 ### Table of Contents
 
-Sn.     | Linkedin-Assessment-questions | Status |
+Sn.     | ------------- Linkedin-Assessment-questions --------------------------------   | Status |
 | ----- | ----- | ----- |
 | 1.    | [HTML](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/HTML/HTML-Quiz.md) | With answers |
 | 2.    | [CSS](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/CSS/CSS.md) | With answers |
