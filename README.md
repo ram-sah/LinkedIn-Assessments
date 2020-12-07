@@ -267,3 +267,245 @@
 
 - [ ] The `<article>` element represents the dominant content of your document. 
     There can be only one `<article>`element that is not hidden.
+
+#### Q16.	What is the most semantically accurate way to mark up this sentence?
+
+    Hmm, Mary thought. I wonder how I should mark up this sentence.
+
+- [ ] `<p><b>Hmm</b>`, Mary thought. `<b>`I wonder how I should mark up this sentence.`</b></p>`
+
+- [ ] `<p><i>Hmm</i>`, Mary thought. `<i>`I wonder how I should mark up this sentence.`</i></p>`
+
+- [ ] `<p><q>Hmm</q>`, Mary thought.` <q>`I wonder how I should mark up this sentence.`</q></p>`
+
+- [x] `<p><em>Hmm</em>`, Mary thought. `<em>`I wonder how I should mark up this sentence.`</em></p>`
+
+#### Q17. What does the <wbr> tag do?
+
+- [ ]	It formats a sentence to be easily breakable.
+
+- [ ]	It requires the browser to wrap the current line at that point.
+
+- [ ]	It breaks a word into two pieces, using a hyphen to connect the words.
+
+- [x]	It presents an opportunity for a break in a very long word, if needed for proper page display.
+
+#### Q18. Review the code below. What is the absolute URL for a page called page.html?
+
+`<base href="http://www.linkedin.com/dir/">`
+
+[ ]	page.html
+
+[ ]	dir/page.html
+
+[ ]	http://www.linkedin.com/page.html
+
+[x]	http://www.linkedin.com/dir/page.html
+
+#### Q19. You want to have single spacing in between some lines, like in a poem or an address. Which approach should you use?
+
+- [ ]	Wrap the text in a box that is the right width so everything wraps correctly. Set the box width with CSS.
+
+- [x]	Separate the lines with the `<br>` tag.
+
+- [ ]	Separate lines with a `<p>`, then use CSS to make single spacing.
+
+- [ ]	Use the `<pre>` tag to make the line spacing look exactly like you want.
+
+#### Q20. What is the correct way to code a comment in HTML?
+
+- [ ]	//this is a comment
+
+- [x]	`<!-- this is a comment -->`
+
+- [ ]	<! this is a comment ->
+
+- [ ]	/* this is a comment */
+
+#### Q21. For the HTML code below, when will "Sample Text" display to the browser?
+  `<noscript>Sample Text</noscript>`
+
+- [x]	when JavaScript is not supported by the browser or if JavaScript is disabled in the browser.
+
+- [ ]	when JavaScript is disabled in the web browser.
+
+- [ ]	when there is no JavaScript used on this webpage.
+
+- [ ]	when JavaScript is not supported by the web browser.
+
+#### Q22.	Which image formats can be displayed by all web browsers?
+
+- [ ]	JPG, GIF, TIF
+- [x]	PNG, GIF, JPG
+- [ ]	JPG, TIF, BMP
+- [ ]	TIF, BMP, GIF
+
+#### Q23. In the code below, what is the purpose of the lang attribute?
+`<p lang="en-GB">Welcome to our wonderful website.</p>`
+
+- [ ]	It establishes the language for the paragraph—in this case, English. 
+
+- [ ]	It establishes the language for the website—in this case, English. 
+
+- [ ]	It establishes the language and dialect for the website—in this case, British English. 
+
+- [x]	It establishes the language and dialect for the paragraph—in this case, British English.
+
+#### Q24. In this code, what is target? 
+`<a href="http://www.linkedin.com" target="_blank">Visit site</a>`
+
+- [x]	a tag
+
+- [ ]	an attribute
+
+- [ ]	content
+
+- [ ]	an element
+
+#### Q25.  Review the code below. How do you include subnavigation for Link 2 that includes a link? 
+```
+  <nav><ul>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+  </ul></nav>
+
+[ ]  <ul><nav>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a>
+      <ul><nav>
+      <li><a href="#">Link 2a</a></li>
+      </nav></ul></li>
+    <li><a href="#">Link 3</a></li>
+  </nav></ul>
+
+[ ]  <nav><ul>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a>
+      <ul>
+      <li><a href="#">Link 2a</a></li>
+      </ul></li>
+    <li><a href="#">Link 3</a></li>
+  </ul></nav>
+
+[x]  <nav><ul>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+      <ul>
+      <li><a href="#">Link 2a</a></li>
+      </ul>
+    <li><a href="#">Link 3</a></li>
+  </ul></nav>
+
+[ ]  <nav><ul>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+      <nav><ul>
+        <li><a href="#">Link 2a</a></li>
+      </ul></nav>
+    <li><a href="#">Link 3</a></li>
+  </ul></nav>
+```
+#### Q26. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
+![quote](images/rm-7.png?raw=true)
+```
+[ ]	<a href="../../info.html">See information</a>
+
+[ ]	<a href="../info.html">See information</a>
+
+[x]	<a href="../work/info.html">See information</a>
+
+[ ]	<a href="info.html">See information</a>
+```
+#### Q27.  The code below contains some errors. Which choice corrects all of the errors? 
+```  <table>
+    <tr>Cell 1</tr>
+    <td>Cell 2</td>
+    <caption>A table</caption>
+  </table>
+
+[ ]  <caption>A table</caption>
+  <table>
+    <tr>
+      <td>Cell 1</td>
+      <td>Cell 2</td>
+    </tr>
+  </table>
+
+[ ]  <table>
+    <tr>
+      <td>Cell 1</td>
+      <td>Cell 2</td>
+    </tr>
+    <caption>A table</caption>
+  </table>
+
+[x]  <table>
+    <caption>A table</caption>
+    <tr>
+      <td>Cell 1</td>
+      <td>Cell 2</td>
+    </tr>
+  </table>
+
+[ ]  <caption>A table</caption>
+  <table>
+    <td>
+      <tr>Cell 1</tr>
+      <tr>Cell 2</tr>
+    </td>
+  </table>
+```
+#### Q28.   What is the correct markup to provide a quote in the alt attribute of an image?
+```
+[x]  <img src="cubism.jpg"
+    alt='Version of "Whistler\'s Mother" in cubist style'>
+
+[]  <img src="cubism.jpg"
+    alt="Version of ""Whistler's Mother"" in cubist style">
+
+[]  <img src="cubism.jpg"
+    alt="Version of "Whistler's Mother" in cubist style">
+
+[]  <img src="cubism.jpg"
+    alt="Version of \"Whistler's Mother\" in cubist style">
+```
+#### Q29.  What is the most semantically accurate way to mark up a main navigation bar, displayed in a horizontal direction?
+```
+[ ] <nav>
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>                
+        <li><a href="contact.html">Contact</a></li>
+      </ol>
+    </nav>
+
+[ ]  <p>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |                
+    <a href="contact.html">Contact</a> 
+    </p>
+
+[x] <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>                
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+
+[ ]  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |                
+    <a href="contact.html">Contact</a> 
+  </nav>
+```
+#### Q30. Which statement is false?
+
+- [ ] Inline elements can be nested inside block elements.
+
+- [x] Block elements can be nested inside inline elements.
+
+- [ ] Inline elements can be nested inside inline elements.
+
+- [ ] Block elements can be nested inside block elements.
