@@ -1,5 +1,5 @@
-# Skill Assessments Linkedin 2020
-  
+# Skill Assessments Linkedin HTML (45 Questions with answers)
+## Linkedin Assessments HTML  
 #### Q1. What is the most semantically correct way to mark up this layout?
 ![quote](images/rm-6.png?raw=true)
 ```html
@@ -509,3 +509,160 @@
 - [ ] Inline elements can be nested inside inline elements.
 
 - [ ] Block elements can be nested inside block elements.
+
+#### Q31. what is the correct way to describe an empty element? 
+
+- [ ] It has child but no closing tag.
+
+- [ ] It dissplay nothing on a webside.
+
+- [x] It has opening and closing tags but no child content.
+
+- [ ] It has no chlid content and no closing tag.
+
+#### Q32. When should you use the `<article>` element?
+
+- [ ] for the main content area of your website.
+
+- [x] when the content stands alone as a unit, is suitable for syndication, or is reusable.
+
+- [ ] to associate comments with a blog post.
+
+- [ ] for blog posts and other social media items.
+
+#### Q33. How will a video look displayed on a fully loaded webpage if the `<video>` tags is used and the autoplay attribute is not set?
+- [ ] It will display nothing unless the poster attribute is set.
+
+- [ ] It will a black window unless the poster attribute is set.
+
+- [ ] It will display a random frame from a video, unless the poster attribute is set.
+
+- [x] It will display the first frame of the video, unless the poster attribute is set.
+
+#### Q34. Which choice is not a legal type attribute for the `<input>` tag?
+
+- [ ] `<input type="week">`
+
+- [ ] `<input type="color">`
+
+- [ ] `<input type="tel">`
+
+- [x] `<input type="num">`
+
+#### Q35. What is the semantically correct way to mark up this layout?
+```
+[ ] <h4>Mailing Address</h4>
+    <p><em>
+    6410 Via Real <br>
+    Carpinteria, CA 93013<br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+    <em></p>
+
+[ ] <p><strong>Mailing Address</strong></p>
+    <p><em>
+    6410 Via Real <br>
+    Carpinteria, CA 93013<br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+    <em></p>
+
+[x] <h4>Mailing Address</h4>
+    <address>
+    6410 Via Real <br>
+    Carpinteria, CA 93013<br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+    </address>
+
+[ ] <h4><strong>Mailing Address</strong></h4>
+    <address><em>
+    6410 Via Real <br>
+    Carpinteria, CA 93013<br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+    <em></address>
+```
+#### Q36. What is the best semantic way to indicate that text refers to keyboard entry?
+
+- [ ]  `<p>Press the <tt>Enter</tt> key to proceed.</p>`
+
+- [ ]  `<p>Press the <samp>Enter</samp> key to proceed.</p>`
+
+- [x] ` <p>Press the <kbd>Enter</kbd> key to proceed.</p>`
+
+- [ ]  `<p>Press the Enter key to proceed.</p>`
+
+#### Q37. What does this code do?
+  `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
+
+- [ ]  The browser plays the sound once automatically in the background. 
+        The user has no  control over the sound.
+
+- [x]  The browser plays the sound automatically and continuously in the background.
+       The user has no control over the sound.
+
+- [ ]  When the Play button is pressed, the browser plays the sound over and 
+        over again until the user stops it.
+
+- [ ]  The browser plays the sound automatically and continuously in the background. 
+        The user may stop the sound at any time.
+
+#### Q38. What is the most semantically accurate way to mark up this sentence? (Note: "TLAs" stands for "three-letter acronyms.") We are fond of our TLAs in web design.
+
+- [x] `<p>We are fond of our <abbr title="three-letter acronyms">TLAs</abbr> in web design.</p>
+`
+- [ ] `<p>We are fond of our TLAs in web design.</p>`
+
+- [ ] `<p>We are fond of our <span title="three-letter acronyms">TLAs</span> in web design.</p>`
+
+- [ ] `<p>We are fond of our <acronym title="three-letter acronyms">TLAs</acronym> in web desi`
+
+#### Q39. What is the difference between the <head> and `<header>` tags?
+
+- [x] There is only one `<head>` tag per page, while there may be many `<header>` tags.
+
+- [ ] all of these answersall of these answers
+
+- [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, 
+      logos, and other page identifying content.
+
+- [ ] The `<head>` tag may contain CSS and JavaScript links, while the `<header>` tag may 
+      contain headings and navigational links.
+
+#### Q40. What are the best examples of void elements?
+
+- [ ] `<link><meta><title>`
+- [x] `<wbr><base><source>`
+- [ ] `<input><br><p>`
+- [ ] `<area><embed><strong>`
+
+#### Q41. In HTML5, which tag or tags embed a webpage inside of a webpage?
+
+- [ ] `<iframe>, <frame>, and <frameset>`
+- [ ] `<frame>`
+- [x] `<iframe>`
+- [ ] `<frame> and <frameset>`
+
+#### Q42. Where do `<header>` and `<footer>` tags typically occur?
+
+- [ ] as children of `<body>, <article>, <aside>, and <section>` tags
+- [x] as children of `<body>, <article>, and <section>` tags
+- [ ] as children of `<body>, <article>, <aside>, <nav>, and <section>` tags
+- [ ] as children of `<body>, <article>, <table>, and <section>` tags
+
+#### Q43. The "value" attribute is associated with which set of tags?
+
+- [ ] `<button><input><form>`
+- [ ] `<input><label><meter>`
+- [ ] `<input><option><textarea>`
+- [x] `<li><input><option>`
+#### Q44. What's the best way to apply bold styling to text?
+
+- [x] `<strong>`
+- [ ] `Use CSS.`
+- [ ] `<bold>`
+- [ ] `<b>`
+
+#### Q45. When is the `<link>` tag used?
+
+- [ ] when linking style sheets, JavaScript, and icons for mobile apps
+- [ ] when linking style sheets, favicons, and preloading assets
+- [x] when linking style sheets and favicons
+- [ ] when linking style sheets, external URLs, and favicons
