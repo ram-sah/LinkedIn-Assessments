@@ -8,7 +8,7 @@
 
 - Skill Assessments Linkedin HTML (45 Questions with answers)
 - JavaScript  
-
+- CSS : It is on the way......
 ### Why should you take the Linkedin skill assessment?
 - Easy earning the LinkedIn skill badge 
 - Candidates with skill badges appear ahead of others in the search result. (Source: engineering.linkedin.com)
@@ -17,7 +17,7 @@
 
 ### Table of Contents
 
-Sn.     | ------------- Linkedin-Assessment-questions --------------------------------   | Status |
+Sn.     | Linkedin-Assessment | Status |
 | ----- | ----- | ----- |
 | 1.    | [HTML](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/HTML/HTML-Quiz.md) | With answers |
 | 2.    | [CSS](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/CSS/CSS.md) | With answers |
