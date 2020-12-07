@@ -1,4 +1,4 @@
-# Linkedin Quiz Questions Skill Assessments Test Answers HTML, JavaScript, CSS, : 
+# Linkedin Quiz Questions, Skill Assessments Test: 
 
 [![License: Apache](https://img.shields.io/badge/License-Apache2.0-e10079.svg)](https://opensource.org/licenses/Apache)
 <!-- ![Contributor](https://img.shields.io/badge/Contributor-1-gggddd.svg?style=flat-square) -->
@@ -7,9 +7,8 @@
 * This repository help you prepare for the LinkedIn skills Assessment quiz and to know the expect areas to target for your exam preparations. If you have found some incorrect answers, or want to contribute your answers, please feel free to create any PULL REQUEST changes => You are most welcome !
 
 - Skill Assessments Linkedin HTML (45 Questions with answers)
-- Linkedin Assessments HTML
-- JavaScript : It is on the way check-back .....
-- CSS : It is on the way......
+- JavaScript  
+
 ### Why should you take the Linkedin skill assessment?
 - Easy earning the LinkedIn skill badge 
 - Candidates with skill badges appear ahead of others in the search result. (Source: engineering.linkedin.com)

@@ -15,7 +15,9 @@ button.addEventListener('click', function(e) {
 - [ ]   e.PreventDefault{};
  
 #### Q2. Which statement references the DOM node created by the code shown?
- `<p class="pull">Lorem Ipsum </p>`
+ ```js
+ <p class="pull">Lorem Ipsum </p>
+ ```
 
 - [ ] document.QuerySelector(".pull");
 
@@ -88,7 +90,7 @@ console.log('Results shown');
 
 - [ ] return addTax 50;
 
-- `[x] addTax(50);`
+- [x] addTax(50);
 
 - [ ] addTax 50;
 
