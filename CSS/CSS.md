@@ -13,8 +13,6 @@ D. border-top-radius: 10px;
 
 - [x] A and C
 
-
-
 > Q2. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
 ```css
 .example {
@@ -71,22 +69,184 @@ section + p {
 
 ![quote](images/rm-1.png?raw=true)
 
-- [ ]   Example 1: flex-direction: row;
-        Example 2: flex-direction: row-reverse;
-        Example 3: flex-direction: column;
-        Example 4: flex-direction: column-reverse;
+- [ ] Example 1: flex-direction: row;
+      Example 2: flex-direction: row-reverse;
+      Example 3: flex-direction: column;
+      Example 4: flex-direction: column-reverse;
 
-- [ ]   Example 1: flex-direction: row-reverse;
-        Example 2: flex-direction: row;
-        Example 3: flex-direction: column-reverse;
-        Example 4: flex-direction: column;
+- [ ] Example 1: flex-direction: row-reverse;
+      Example 2: flex-direction: row;
+      Example 3: flex-direction: column-reverse;
+      Example 4: flex-direction: column;
 
-- [ ]   Example 1: flex-direction: row;
-        Example 2: flex-direction: reverse-row;
-        Example 3: flex-direction: column;
-        Example 4: flex-direction: reverse-column;
+- [ ] Example 1: flex-direction: row;
+      Example 2: flex-direction: reverse-row;
+      Example 3: flex-direction: column;
+      Example 4: flex-direction: reverse-column;
 
-- [ ]   Example 1: flex-direction: column;
-        Example 2: flex-direction: column-reverse;
-        Example 3: flex-direction: row;
-        Example 4: flex-direction: row-reverse;
+- [ ] Example 1: flex-direction: column;
+      Example 2: flex-direction: column-reverse;
+      Example 3: flex-direction: row;
+      Example 4: flex-direction: row-reverse;
+
+> Q6. How would you make the first letter of every paragraph on the page red?
+
+- [ ] p::capital-letter { color: red; }
+
+- [ ] first-letter:p { color: red; }
+
+- [x] p::first-letter { color: red; }
+
+- [ ] first-letter::p { color: red; }
+
+> Q7. There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
+```css
+10vw = ?px
+10vh = ?px
+10vmin = ?px
+10vmax = ?px
+```
+- [ ] 10vw = 80px
+      10vh = 60px
+      10vmin = 60px
+      10vmax = 80px
+
+- [ ] 10vw = 60px
+      10vh = 80px
+      10vmin = 80px
+      10vmax = 60px
+
+- [ ] 10vw = 8px
+      10vh = 6px
+      10vmin = 6px
+      10vmax = 8px
+
+- [ ] 10vw = 6px
+      10vh = 8px
+      10vmin = 8px
+      10vmax = 6px
+
+> Q8. When using flexbox, the justify-content property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
+
+![Sample text](images/rm-2.png?raw=true)
+
+- [ ] justify-content: space-around;
+
+- [ ] justify-content: center;
+
+- [ ] justify-content: space-between;
+
+- [ ] justify-content: auto;
+
+> Q9. Which choice is not a valid value for the font-style property?
+
+- [ ] normal
+
+- [ ] oblique
+
+- [x] none
+
+- [ ] italic
+
+> Q10.  Which element(s) will be blue?
+```css
+h2 ~ p {
+  color: blue;
+}
+```
+```html
+<section>
+  <p>P1</p>
+  <h2>H2</h2>
+  <p>P3</p>
+  <p>P4</p>
+</section>
+```
+- [ ] P3P3
+
+- [ ] P1P1
+
+- [ ] P1, P3, and P4P1, P3, and P4
+
+- [x] P3 and P4
+
+> Q11. In this example, which selector has the highest specificity value for selecting the anchor link element? 
+
+- [ ] a
+- [x] .example a
+- [ ] div a
+- [ ] ul li a
+
+> Q12. How will the grid items display? How will the grid items display?
+```css
+grid-template-columns: 2fr 1fr;
+```
+- [x] The first column is twice as wide as the second column and will fit proportionally within the grid container.
+
+- [ ] The first column is half the size of the container and the second column will absorb the remaining space.
+
+- [ ] The first column is twice the height of the second column and will be as wide as the content.
+
+- [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container.
+
+> Q13. Referring to the HTML markup and CSS example below, which element(s) will be targeted? 
+```css
+p:first-of-type:first-letter { color: red; }
+```
+```html
+<body>
+  <p>Paragraph 1.</p>
+  <p>Paragraph 2.</p>
+
+  <article>
+    <h1>Heading</h1>
+    <p>Paragraph 3.</p>
+    <p>paragraph 4.</p>
+  </article>
+
+  <section>
+    <p>Paragraph 5.</p>
+    <p>Paragraph 6.</p>
+  </section>
+</body>
+```
+- [ ] The first letter in all paragraphs will be red.
+
+- [ ] Only the first letter in paragraphs 1 and 5 will be red.
+
+- [x]  The first letter in paragraphs 1, 3, and 5 will be red.
+
+- [ ] Only the first letter in paragraph 1 will be red.Only 
+
+> Q14. What is the correct order for listing different link states in a website so those states display correctly on the page?
+
+- [x] :link
+      :visited
+      :focus
+      :hover
+      :active
+
+- [ ] :active
+      :focus
+      :hover
+      :link
+      :visited
+
+- [ ] :link
+      :visited
+      :hover
+      :active
+      :focus
+
+- [ ] a
+      a:hover 
+
+> Q15. Which five style features are associated with the box model?Which five style features are associated with the box model?
+
+- [ ] margin, padding, border, width, height
+
+- [ ] width, height, z-index, overflow, font size
+
+- [ ] margin, padding, font size, line height, border
+
+- [ ] font size, line height, letter spacing, width, height
