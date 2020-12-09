@@ -1,6 +1,6 @@
 > # JavaScript:  
 
-> #### Q1. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
+> ### Q1. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
 ```js
 button.addEventListener('click', function(e) {
   button.className = 'clicked';
@@ -14,7 +14,7 @@ button.addEventListener('click', function(e) {
 
 - [ ]   e.PreventDefault{};
  
-> #### Q2. Which statement references the DOM node created by the code shown?
+> ### Q2. Which statement references the DOM node created by the code shown?
  ```js
  <p class="pull">Lorem Ipsum </p>
  ```
@@ -27,7 +27,7 @@ button.addEventListener('click', function(e) {
 
 - [ ] document.querySelector("#pull");
  
-> #### Q3. Which statement is the correct way to create a variable called rate and assign it the value 100?
+> ### Q3. Which statement is the correct way to create a variable called rate and assign it the value 100?
 
 - [ ] Var Rate = 100;
 
@@ -37,7 +37,7 @@ button.addEventListener('click', function(e) {
 
 - [x] let rate = 100;
  
-> #### Q4. When would the final statement in the code shown be logged to the console?
+> ### Q4. When would the final statement in the code shown be logged to the console?
 ```js
 let modal = document.querySelector('#results');
 setTimeout(function() {
@@ -54,7 +54,7 @@ console.log('Results shown');
 
 - [ ] after 10 sec
  
-> #### Q5. Which statement creates a new object using the Person constructor?
+> ### Q5. Which statement creates a new object using the Person constructor?
 
 - [ ] var student = new person();
 
@@ -64,7 +64,7 @@ console.log('Results shown');
 
 - [ ] var student = Person();
  
-> #### Q6. When would you use a conditional statement?
+> ### Q6. When would you use a conditional statement?
 
 - [ ] When you want to reuse a set of statements multiple times.
 
@@ -74,7 +74,7 @@ console.log('Results shown');
 
 - [ ] When you want to loop through a group of statement.
  
-> #### Q7. How is forEach statement different from a for statement?
+> ### Q7. How is forEach statement different from a for statement?
 
 - [ ] Only a for statement uses a callback function.
 
@@ -84,7 +84,7 @@ console.log('Results shown');
 
 - [ ] A forEach statement is generic, but a for statement ca be used only with an array.
  
-> #### Q8. Review the code below. Which statement calls the addTax function and passes 50 as the argument?
+> ### Q8. Review the code below. Which statement calls the addTax function and passes 50 as the argument?
  
 - [ ] addTax = 50;
 
@@ -94,7 +94,7 @@ console.log('Results shown');
 
 - [ ] addTax 50;
 
-> #### Q9. What is the result in the console of running the code shown?
+> ### Q9. What is the result in the console of running the code shown?
 ```js 
 var Storm = function () {};
 Storm.prototype.precip = 'rain';
@@ -114,7 +114,7 @@ console.log(bob.precip);
 - [x] 'snow'
 
  
-> #### Q10. How does a function create a closure?
+> ### Q10. How does a function create a closure?
 
 - [ ] It reloads the document whenever the value changes.
 
@@ -125,7 +125,7 @@ console.log(bob.precip);
 - [ ] It copies a local variable to the global scope.
 
 
-> #### Q11. Which keyword is used to create an error?
+> ### Q11. Which keyword is used to create an error?
 
 - [ ] catch
 
@@ -136,7 +136,7 @@ console.log(bob.precip);
 - [ ] exception
 
 
-> #### Q12. What would be the result in the console of running this code?
+> ### Q12. What would be the result in the console of running this code?
 
 ```js
 for (var i = 0; i < 4; i++) {
@@ -151,7 +151,7 @@ for (var i = 0; i < 4; i++) {
 
 - [ ] 012345
 
-> #### Q13. Which of the following operators can be used to do a short-circuit evaluation?
+> ### Q13. Which of the following operators can be used to do a short-circuit evaluation?
 
 - [ ] \++
 
@@ -161,7 +161,7 @@ for (var i = 0; i < 4; i++) {
 
 - [x] ||
 
-> #### Q14. What is the name of a function whose execution can be suspended and resumed at a later point?
+> ### Q14. What is the name of a function whose execution can be suspended and resumed at a later point?
 
 - [ ] Async/ Await function
 
@@ -172,7 +172,7 @@ for (var i = 0; i < 4; i++) {
 - [ ] Arrow function
 
 
-> #### Q15. The following program has a problem. What is it?
+> ### Q15. The following program has a problem. What is it?
 
 ```js
 var a;
@@ -187,7 +187,7 @@ var b = (a = 3) ? true : false;
 
 - [x] The condition in the ternary is using the assignment operator.
 
-> #### Q16. which statement selects all img elements in the DOM tree?
+> ### Q16. which statement selects all img elements in the DOM tree?
 
 - [ ] Document.querySelector(‘img’)
 
@@ -197,7 +197,7 @@ var b = (a = 3) ? true : false;
 
 - [ ] Document.querySelector(‘<img>’)
 
-> #### Q17. Which of the following values is not a Boolean false?
+> ### Q17. Which of the following values is not a Boolean false?
 
 - [ ] Boloean(0)	
 
@@ -207,7 +207,7 @@ var b = (a = 3) ? true : false;
 
 - [ ] Boolean(“”)
  
-> #### Q18. Which of these is a valid variable name?
+> ### Q18. Which of these is a valid variable name?
 
 - [ ] 5thItem	
 
@@ -217,7 +217,7 @@ var b = (a = 3) ? true : false;
 
 - [ ] grand total
  
-> #### Q19. Why would you choose an asynchronous structure for your code ?
+> ### Q19. Why would you choose an asynchronous structure for your code ?
 - [ ] To use ES6 syntax		
 
 - [ ]  Start task that might take some time without blocking subsequence tasks from executing immediately.
@@ -226,7 +226,7 @@ var b = (a = 3) ? true : false;
 
 - [ ] To use JavaScript ES6 syntax	
 
-> #### Q20. What is the HTTP verb to the request the contents of the existing resource ?
+> ### Q20. What is the HTTP verb to the request the contents of the existing resource ?
 
 - [ ] Delete	
 
@@ -236,7 +236,7 @@ var b = (a = 3) ? true : false;
 
 - [ ] post 
 
-> #### Q21. Which variable defining keyword allows its variable to be accused (as undefined ) before the line that defines it?
+> ### Q21. Which variable defining keyword allows its variable to be accused (as undefined ) before the line that defines it?
 
 - [ ] const 	
 
@@ -246,7 +246,7 @@ var b = (a = 3) ? true : false;
 
 - [ ] all of them  
 
-> #### Q22. What two values will this code print ?
+> ### Q22. What two values will this code print ?
 ```js
 function printA() {
 console.log(answer); 
@@ -262,7 +262,7 @@ printA();
 
 - [x] undefined  then 1
 
-> #### Q23. Which of the following is not a keyword JavaScript?
+> ### Q23. Which of the following is not a keyword JavaScript?
 
 - [ ] catch 	
 

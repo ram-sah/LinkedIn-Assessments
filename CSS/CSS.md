@@ -1,4 +1,4 @@
-> ## Q1. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element? 
+> ### Q1. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element? 
 
 A. border-radius: 10px 10px 0 0;
 B. border-top-left-radius: 10px; and border-top-right-radius: 10px;
@@ -13,7 +13,7 @@ D. border-top-radius: 10px;
 
 - [x] A and C
 
-> ## Q2. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
+> ### Q2. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
 ```css
 .example {
   width: 800px;
@@ -30,7 +30,7 @@ D. border-top-radius: 10px;
 - [ ] The margin value is invalid because its missing a unit measurement after the 0.
 
 
-> ## Q3. In this example, what color will paragraphs one and two be?
+> ### Q3. In this example, what color will paragraphs one and two be?
 ```html
 <section>
   <p>paragraph one</p>
@@ -55,7 +55,7 @@ section + p {
 - [ ] Paragraph one will be blue, paragraph two will be red.
 
 
-> ## Q4. What is the difference between display: none and visibility: hidden?
+> ### Q4. What is the difference between display: none and visibility: hidden?
 
 - [x] display: none hides the element from view and removes it from the normal flow of the document. visibility: hidden will hide the element but maintain the space it previously occupied.
 
@@ -65,7 +65,7 @@ section + p {
 
 - [ ] There is no difference; both will hide the element on the page.There is no difference; both will hide the element on the page.
 
-> ## Q5. The flex-direction property is used to specify the direction in which flex items are displayed. What are the flex values used to specify the direction of the items in these examples?
+> ### Q5. The flex-direction property is used to specify the direction in which flex items are displayed. What are the flex values used to specify the direction of the items in these examples?
 
 ![quote](images/rm-1.png?raw=true)
 
@@ -89,7 +89,7 @@ section + p {
       Example 3: flex-direction: row;
       Example 4: flex-direction: row-reverse;
 
-> ## Q6. How would you make the first letter of every paragraph on the page red?
+> ### Q6. How would you make the first letter of every paragraph on the page red?
 
 - [ ] p::capital-letter { color: red; }
 
@@ -99,7 +99,7 @@ section + p {
 
 - [ ] first-letter::p { color: red; }
 
-> ## Q7. There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
+> ### Q7. There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
 ```css
 10vw = ?px
 10vh = ?px
@@ -126,7 +126,7 @@ section + p {
       10vmin = 8px
       10vmax = 6px
 
-> ## Q8. When using flexbox, the justify-content property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
+> ### Q8. When using flexbox, the justify-content property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
 
 ![Sample text](images/rm-2.png?raw=true)
 
@@ -138,7 +138,7 @@ section + p {
 
 - [ ] justify-content: auto;
 
-> ## Q9. Which choice is not a valid value for the font-style property?
+> ### Q9. Which choice is not a valid value for the font-style property?
 
 - [ ] normal
 
@@ -148,7 +148,7 @@ section + p {
 
 - [ ] italic
 
-> ## Q10.  Which element(s) will be blue?
+> ### Q10.  Which element(s) will be blue?
 ```css
 h2 ~ p {
   color: blue;
@@ -170,14 +170,14 @@ h2 ~ p {
 
 - [x] P3 and P4
 
-> ## Q11. In this example, which selector has the highest specificity value for selecting the anchor link element? 
+> ### Q11. In this example, which selector has the highest specificity value for selecting the anchor link element? 
 
 - [ ] a
 - [x] .example a
 - [ ] div a
 - [ ] ul li a
 
-> ## Q12. How will the grid items display? How will the grid items display?
+> ### Q12. How will the grid items display? How will the grid items display?
 ```css
 grid-template-columns: 2fr 1fr;
 ```
@@ -189,7 +189,7 @@ grid-template-columns: 2fr 1fr;
 
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container.
 
-> ## Q13. Referring to the HTML markup and CSS example below, which element(s) will be targeted? 
+> ### Q13. Referring to the HTML markup and CSS example below, which element(s) will be targeted? 
 ```css
 p:first-of-type:first-letter { color: red; }
 ```
@@ -218,7 +218,7 @@ p:first-of-type:first-letter { color: red; }
 
 - [ ] Only the first letter in paragraph 1 will be red.Only 
 
-> ## Q14. What is the correct order for listing different link states in a website so those states display correctly on the page?
+> ### Q14. What is the correct order for listing different link states in a website so those states display correctly on the page?
 
 - [x] :link
       :visited
@@ -241,7 +241,7 @@ p:first-of-type:first-letter { color: red; }
 - [ ] a
       a:hover 
 
-> ## Q15. Which five style features are associated with the box model?
+> ### Q15. Which five style features are associated with the box model?
 
 - [x] margin, padding, border, width, height
 

@@ -1,6 +1,6 @@
 # Skill Assessments Linkedin HTML (45 Questions with answers)
 ## Linkedin Assessments HTML  
-#### Q1. What is the most semantically correct way to mark up this layout?
+> ### Q1. What is the most semantically correct way to mark up this layout?
 ![quote](images/rm-6.png?raw=true)
 ```html
 [ ]<img src="q24.jpg" alt="Mini-cheeseburgers.">
@@ -19,7 +19,7 @@
    <figcaption>These mini cheeseburgers are served on a freshly baked pretzel bun with lettuce, tomato, avocado, and your choice of cheese.</figcaption>
   </figure>
 ```  
-#### Q2. Review the code below. What is the best way to nest a two-cell table inside of Cell 2?
+> ### Q2. Review the code below. What is the best way to nest a two-cell table inside of Cell 2?
 ```    <table>
       <tr>
           <td>Cell 1</td>
@@ -62,7 +62,7 @@
         </table>
       <td>Cell 2</td>
 ```
-#### Q3. In this code, what is the purpose of defer? 
+> ### Q3. In this code, what is the purpose of defer? 
 
   <script defer src="myscript.js"></script>
 
@@ -74,7 +74,7 @@
 
 - [ ]  It pauses the parsing of HTML code while the script runs.
 
-#### Q4. What is the purpose of async in this code?
+> ### Q4. What is the purpose of async in this code?
 ```  <script async src="myscript.js"></script>```
 
 - [ ]  It runs the script when the script is ready.
@@ -85,7 +85,7 @@
 
 - [ ]  It downloads the script from the server when resources allow.
 
-#### Q5. What is the difference between the `<svg>` and `<canvas>` tags?
+> ### Q5. What is the difference between the `<svg>` and `<canvas>` tags?
 
 - [ ] `<svg>` integrates with JavaScript, while `<canvas>` does not.
 
@@ -95,7 +95,7 @@
 
 - [ ] `<svg>` cannot be used as a background image, while `<canvas>` can be used as a background.
 
-#### Q6. What is the purpose of `<caption>`?
+> ### Q6. What is the purpose of `<caption>`?
 ```
 [ ] <caption> provides captions for <audio>, <video>, <img>, and <table>.
 
@@ -105,7 +105,7 @@
 
 [ ] <caption> provides captions for <audio>, <video>, and <table>.
 ```
-#### Q7. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
+> ### Q7. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 ```
 [ ] <a href="tel">802-555-1212</a>
 
@@ -115,7 +115,7 @@
 
 [x] <a href="tel:802-555-1212">Call me</a>
 ```
-#### Q8. What is the correct way to include a stylesheet named style.css in the <head> of your document?
+> ### Q8. What is the correct way to include a stylesheet named style.css in the <head> of your document?
 ```
 - [ ] <link style="style.css">
 
@@ -125,7 +125,7 @@
 
 - [x] <link rel="stylesheet" href="style.css">
 ```
-#### Q9. What is the primary purpose of HTML?
+> ### Q9. What is the primary purpose of HTML?
 
 - [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
 
@@ -135,7 +135,7 @@
 
 - [ ] HTML structures and provides a rudimentary look to webpages.
 
-#### Q10. What is the best semantic markup for this sentence?  
+> ### Q10. What is the best semantic markup for this sentence?  
       On July 21, 1969, Neil Armstrong said, "That's one small step for man, one giant leap for mankind."
 ```
 [x] <p>On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, 
@@ -150,7 +150,7 @@
 [ ] <p>On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, 
       <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
 ```
-#### Q11.  What is the correctly nested markup for this list? 
+> ### Q11.  What is the correctly nested markup for this list? 
 ![quote](images/rm-8.png?raw=true)
 
     Bulleted list with one bullet (Office Supplies), two subbullets (Stapler and Paper clips), another bullet (Groceries), and one subbullet (Milk)
@@ -204,7 +204,7 @@
     </ul>
 
 ```
-#### Q12.  What is the best way to code three choices within a form so that the user can select only one item?
+> ### Q12.  What is the best way to code three choices within a form so that the user can select only one item?
 ```
 [ ]  <fieldset>
         <label>Options</label>
@@ -242,11 +242,11 @@
       <label for="choice-3">Choice 3</label>
   </fieldset>
 ```
-#### Q13.	What does the poster attribute do in the `<video>` tag?
+> ### Q13.	What does the poster attribute do in the `<video>` tag?
 - [x]  It specifies an image that should display while the video downloads and until the video played.
 - [ ]
 
-#### Q14. Which list comprises three empty elements?
+> ### Q14. Which list comprises three empty elements?
 [ ]`	<area>	<embed>	<strong>`
 	
 [ ]	`<link>	<meta>	<title>`
@@ -255,7 +255,7 @@
 	
 [x]`	<wbr>	<base>	<source>`
 	
-#### Q15. Which statement is correct?
+> ### Q15. Which statement is correct?
 
 - [ ] The `<main>` element represents the dominant content of an `<article>` in a document.
 
@@ -268,7 +268,7 @@
 - [ ] The `<article>` element represents the dominant content of your document. 
     There can be only one `<article>`element that is not hidden.
 
-#### Q16.	What is the most semantically accurate way to mark up this sentence?
+> ### Q16.	What is the most semantically accurate way to mark up this sentence?
 
     Hmm, Mary thought. I wonder how I should mark up this sentence.
 
@@ -280,7 +280,7 @@
 
 - [x] `<p><em>Hmm</em>`, Mary thought. `<em>`I wonder how I should mark up this sentence.`</em></p>`
 
-#### Q17. What does the <wbr> tag do?
+> ### Q17. What does the <wbr> tag do?
 
 - [ ]	It formats a sentence to be easily breakable.
 
@@ -290,7 +290,7 @@
 
 - [x]	It presents an opportunity for a break in a very long word, if needed for proper page display.
 
-#### Q18. Review the code below. What is the absolute URL for a page called page.html?
+> ### Q18. Review the code below. What is the absolute URL for a page called page.html?
 
 `<base href="http://www.linkedin.com/dir/">`
 
@@ -302,7 +302,7 @@
 
 [x]	http://www.linkedin.com/dir/page.html
 
-#### Q19. You want to have single spacing in between some lines, like in a poem or an address. Which approach should you use?
+> ### Q19. You want to have single spacing in between some lines, like in a poem or an address. Which approach should you use?
 
 - [ ]	Wrap the text in a box that is the right width so everything wraps correctly. Set the box width with CSS.
 
@@ -312,7 +312,7 @@
 
 - [ ]	Use the `<pre>` tag to make the line spacing look exactly like you want.
 
-#### Q20. What is the correct way to code a comment in HTML?
+> ### Q20. What is the correct way to code a comment in HTML?
 
 - [ ]	//this is a comment
 
@@ -322,7 +322,7 @@
 
 - [ ]	/* this is a comment */
 
-#### Q21. For the HTML code below, when will "Sample Text" display to the browser?
+> ### Q21. For the HTML code below, when will "Sample Text" display to the browser?
   `<noscript>Sample Text</noscript>`
 
 - [x]	when JavaScript is not supported by the browser or if JavaScript is disabled in the browser.
@@ -333,14 +333,14 @@
 
 - [ ]	when JavaScript is not supported by the web browser.
 
-#### Q22.	Which image formats can be displayed by all web browsers?
+> ### Q22.	Which image formats can be displayed by all web browsers?
 
 - [ ]	JPG, GIF, TIF
 - [x]	PNG, GIF, JPG
 - [ ]	JPG, TIF, BMP
 - [ ]	TIF, BMP, GIF
 
-#### Q23. In the code below, what is the purpose of the lang attribute?
+> ### Q23. In the code below, what is the purpose of the lang attribute?
 `<p lang="en-GB">Welcome to our wonderful website.</p>`
 
 - [ ]	It establishes the language for the paragraph—in this case, English. 
@@ -351,7 +351,7 @@
 
 - [x]	It establishes the language and dialect for the paragraph—in this case, British English.
 
-#### Q24. In this code, what is target? 
+> ### Q24. In this code, what is target? 
 `<a href="http://www.linkedin.com" target="_blank">Visit site</a>`
 
 - [x]	a tag
@@ -362,7 +362,7 @@
 
 - [ ]	an element
 
-#### Q25.  Review the code below. How do you include subnavigation for Link 2 that includes a link? 
+> ### Q25.  Review the code below. How do you include subnavigation for Link 2 that includes a link? 
 ```
   <nav><ul>
     <li><a href="#">Link 1</a></li>
@@ -406,7 +406,7 @@
     <li><a href="#">Link 3</a></li>
   </ul></nav>
 ```
-#### Q26. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
+> ### Q26. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
 ![quote](images/rm-7.png?raw=true)
 ```
 [ ]	<a href="../../info.html">See information</a>
@@ -417,7 +417,7 @@
 
 [ ]	<a href="info.html">See information</a>
 ```
-#### Q27.  The code below contains some errors. Which choice corrects all of the errors? 
+> ### Q27.  The code below contains some errors. Which choice corrects all of the errors? 
 ```  <table>
     <tr>Cell 1</tr>
     <td>Cell 2</td>
@@ -456,7 +456,7 @@
     </td>
   </table>
 ```
-#### Q28.   What is the correct markup to provide a quote in the alt attribute of an image?
+> ### Q28.   What is the correct markup to provide a quote in the alt attribute of an image?
 ```
 [x]  <img src="cubism.jpg"
     alt='Version of "Whistler\'s Mother" in cubist style'>
@@ -470,7 +470,7 @@
 []  <img src="cubism.jpg"
     alt="Version of \"Whistler's Mother\" in cubist style">
 ```
-#### Q29.  What is the most semantically accurate way to mark up a main navigation bar, displayed in a horizontal direction?
+> ### Q29.  What is the most semantically accurate way to mark up a main navigation bar, displayed in a horizontal direction?
 ```
 [ ] <nav>
       <ol>
@@ -500,7 +500,7 @@
     <a href="contact.html">Contact</a> 
   </nav>
 ```
-#### Q30. Which statement is false?
+> ### Q30. Which statement is false?
 
 - [ ] Inline elements can be nested inside block elements.
 
@@ -510,7 +510,7 @@
 
 - [ ] Block elements can be nested inside block elements.
 
-#### Q31. what is the correct way to describe an empty element? 
+> ### Q31. what is the correct way to describe an empty element? 
 
 - [ ] It has child but no closing tag.
 
@@ -520,7 +520,7 @@
 
 - [ ] It has no chlid content and no closing tag.
 
-#### Q32. When should you use the `<article>` element?
+> ### Q32. When should you use the `<article>` element?
 
 - [ ] for the main content area of your website.
 
@@ -530,7 +530,7 @@
 
 - [ ] for blog posts and other social media items.
 
-#### Q33. How will a video look displayed on a fully loaded webpage if the `<video>` tags is used and the autoplay attribute is not set?
+> ### Q33. How will a video look displayed on a fully loaded webpage if the `<video>` tags is used and the autoplay attribute is not set?
 - [ ] It will display nothing unless the poster attribute is set.
 
 - [ ] It will a black window unless the poster attribute is set.
@@ -539,7 +539,7 @@
 
 - [x] It will display the first frame of the video, unless the poster attribute is set.
 
-#### Q34. Which choice is not a legal type attribute for the `<input>` tag?
+> ### Q34. Which choice is not a legal type attribute for the `<input>` tag?
 
 - [ ] `<input type="week">`
 
@@ -549,7 +549,7 @@
 
 - [x] `<input type="num">`
 
-#### Q35. What is the semantically correct way to mark up this layout?
+> ### Q35. What is the semantically correct way to mark up this layout?
 ```
 [ ] <h4>Mailing Address</h4>
     <p><em>
@@ -579,7 +579,7 @@
     <a href="mailto:info@linkedin.com">info@linkedin.com</a>
     <em></address>
 ```
-#### Q36. What is the best semantic way to indicate that text refers to keyboard entry?
+> ### Q36. What is the best semantic way to indicate that text refers to keyboard entry?
 
 - [ ]  `<p>Press the <tt>Enter</tt> key to proceed.</p>`
 
@@ -589,7 +589,7 @@
 
 - [ ]  `<p>Press the Enter key to proceed.</p>`
 
-#### Q37. What does this code do?
+> ### Q37. What does this code do?
   `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
 
 - [ ]  The browser plays the sound once automatically in the background. 
@@ -604,7 +604,7 @@
 - [ ]  The browser plays the sound automatically and continuously in the background. 
         The user may stop the sound at any time.
 
-#### Q38. What is the most semantically accurate way to mark up this sentence? (Note: "TLAs" stands for "three-letter acronyms.") We are fond of our TLAs in web design.
+> ### Q38. What is the most semantically accurate way to mark up this sentence? (Note: "TLAs" stands for "three-letter acronyms.") We are fond of our TLAs in web design.
 
 - [x] `<p>We are fond of our <abbr title="three-letter acronyms">TLAs</abbr> in web design.</p>
 `
@@ -614,7 +614,7 @@
 
 - [ ] `<p>We are fond of our <acronym title="three-letter acronyms">TLAs</acronym> in web desi`
 
-#### Q39. What is the difference between the <head> and `<header>` tags?
+> ### Q39. What is the difference between the <head> and `<header>` tags?
 
 - [x] There is only one `<head>` tag per page, while there may be many `<header>` tags.
 
@@ -626,41 +626,41 @@
 - [ ] The `<head>` tag may contain CSS and JavaScript links, while the `<header>` tag may 
       contain headings and navigational links.
 
-#### Q40. What are the best examples of void elements?
+> ### Q40. What are the best examples of void elements?
 
 - [ ] `<link><meta><title>`
 - [x] `<wbr><base><source>`
 - [ ] `<input><br><p>`
 - [ ] `<area><embed><strong>`
 
-#### Q41. In HTML5, which tag or tags embed a webpage inside of a webpage?
+> ### Q41. In HTML5, which tag or tags embed a webpage inside of a webpage?
 
 - [ ] `<iframe>, <frame>, and <frameset>`
 - [ ] `<frame>`
 - [x] `<iframe>`
 - [ ] `<frame> and <frameset>`
 
-#### Q42. Where do `<header>` and `<footer>` tags typically occur?
+> ### Q42. Where do `<header>` and `<footer>` tags typically occur?
 
 - [ ] as children of `<body>, <article>, <aside>, and <section>` tags
 - [x] as children of `<body>, <article>, and <section>` tags
 - [ ] as children of `<body>, <article>, <aside>, <nav>, and <section>` tags
 - [ ] as children of `<body>, <article>, <table>, and <section>` tags
 
-#### Q43. The "value" attribute is associated with which set of tags?
+> ### Q43. The "value" attribute is associated with which set of tags?
 
 - [ ] `<button><input><form>`
 - [ ] `<input><label><meter>`
 - [ ] `<input><option><textarea>`
 - [x] `<li><input><option>`
-#### Q44. What's the best way to apply bold styling to text?
+> ### Q44. What's the best way to apply bold styling to text?
 
 - [x] `<strong>`
 - [ ] `Use CSS.`
 - [ ] `<bold>`
 - [ ] `<b>`
 
-#### Q45. When is the `<link>` tag used?
+> ### Q45. When is the `<link>` tag used?
 
 - [ ] when linking style sheets, JavaScript, and icons for mobile apps
 - [ ] when linking style sheets, favicons, and preloading assets
