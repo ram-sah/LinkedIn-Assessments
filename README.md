@@ -7,22 +7,21 @@
 * This repository help you prepare for the LinkedIn skills Assessment quiz and to know the expect areas to target for your exam preparations. If you have found some incorrect answers, or want to contribute your answers, please feel free to create any PULL REQUEST changes => You are most welcome !
 
 - Skill Assessments Linkedin HTML (45 Questions with answers)
-- JavaScript  
-- CSS : It is on the way......
+- JavaScript : 
+- CSS : 
+
 ### Why should you take the Linkedin skill assessment?
 - Easy earning the LinkedIn skill badge 
 - Candidates with skill badges appear ahead of others in the search result. (Source: engineering.linkedin.com)
 - Get noticed by the recruiter and increase the chances of getting hired
 
-
 ### Table of Contents
 
-Sn.     | Linkedin-Assessment | Status |
+| Sn.   | Linkedin-Assessment | Status |
 | ----- | ----- | ----- |
 | 1.    | [HTML](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/HTML/HTML-Quiz.md) | With answers |
 | 2.    | [CSS](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/CSS/CSS.md) | With answers |
 | 3.    | [javaScript](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/javaScript/javaScript.md) | With answers |
-
 
 
 
@@ -35,3 +34,9 @@ Sn.     | Linkedin-Assessment | Status |
 - If you have any questions please contact me at: rsah1@asu.edu
 ### GitHub Prifile: [ram-sah](https://github.com/ram-sah) 
 ### Repository : [LinkedIn-Assessments](https://github.com/ram-sah/LinkedIn-Assessments)
+
+## Credit: 
+* https://www.w3schools.com/ 
+* https://developer.mozilla.org/en-US/ 
+* https://google.com
+* https://linkedIn.com
