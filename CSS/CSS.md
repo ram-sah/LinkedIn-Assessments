@@ -131,11 +131,11 @@ section + p {
 
 ![Sample text](images/rm-2.png?raw=true)
 
-- [ ] justify-content: space-around;
+- [x] justify-content: space-around;
 
 - [ ] justify-content: center;
 
-- [x] justify-content: space-between;
+- [ ] justify-content: space-between;
 
 - [ ] justify-content: auto;
 
@@ -897,3 +897,22 @@ p:first-child {
     3. p.example {...}
     4. section p {...}
 ```
+> ### Q60. Using an attribute selector, how would you select an `<a>` element with a "title" attribute?
+
+- [x] a[title]{...}
+
+- [ ] a > title {...}
+
+- [ ] a.title {...}
+
+- [ ] a=title {...}
+
+> ### Q61. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or it you need to support older browser version. What are two valid techniques used to clear floats?
+
+- [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.
+
+- [ ] Use the overflow property on the floated element or the "clearfix hack" on either the floated or parent element.
+
+- [ ] Use the "clearfix hack" on the floated element or the overflow property on the parent element.
+
+- [x] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
