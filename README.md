@@ -7,8 +7,8 @@
 * This repository help you prepare for the LinkedIn skills Assessment quiz and to know the expect areas to target for your exam preparations. If you have found some incorrect answers, or want to contribute your answers, please feel free to create any PULL REQUEST changes => You are most welcome !
 
 - Skill Assessments Linkedin HTML (45 Questions with answers)
-- JavaScript : 
-- CSS : 
+- JavaScript : (23 Questions with answers)
+- CSS : (65 Questions with answers)
 
 ### Why should you take the Linkedin skill assessment?
 - Easy earning the LinkedIn skill badge 

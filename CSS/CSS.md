@@ -839,7 +839,7 @@ p:first-child {
 
 ![Sample text](images/rm-3.png?raw=true)
 
-- [x] Floating the blue box increased its height.
+- [ ] Floating the blue box increased its height.
 
 - [ ] Floating the blue box on the left also moves it down.
 
@@ -921,3 +921,43 @@ p:first-child {
 - [ ] Use the "clearfix hack" on the floated element or the overflow property on the parent element.
 
 - [x] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
+
+>### Q62. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
+
+- [x] position
+
+- [ ] flexbox
+
+- [ ] grid
+
+- [ ] float
+
+>### Q63. Which code would you use to absolutely position an element of the logo class?
+```css
+[x] `.logo { position: absolute; left: 100px; top: 150px; }`
+
+[ ] `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`
+
+[ ] `.logo { position: absolute; padding-left: 100px; padding-top: 150px; }`
+
+[ ] `.logo { position: absolute; left-padding: 100px; top-padding: 150px; }`
+```
+> ### Q64. What selector and property would you use to scale an element to be 50% smaller on hover?
+
+- [ ] element:hover {scale: 0.5;}
+
+- [x] element:hover {transform: scale(0.5);}
+
+- [ ] element:hover {scale: 50%;}
+
+- [ ] element:hover {transform: scale(50%);}
+
+> ### Q65. Which choice uses the correct syntax for adding a hover pseudo class to <a> element?
+
+- [ ] a hover {…}
+
+- [ ] a.hover {…}
+
+- [x] a:hover {…}
+
+- [ ] a :hover {…}
