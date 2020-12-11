@@ -4,6 +4,8 @@
 * Badge
 ![quote](images/RAM-Badge.png?raw=true)
 
+* https://www.linkedin.com/in/ram-sah/ 
+
 > ### Q1. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element? 
 
 A. border-radius: 10px 10px 0 0;
