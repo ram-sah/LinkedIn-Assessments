@@ -343,3 +343,15 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 - [ ] It can be used only for internal JavaScript code.
 
 - [ ] It can be used only for internal or external JavaScript code that exports a promise.
+
+>### Q31. How many prototype objects are in the chain for the following array?
+
+`let arr = [];`
+
+- [ ] 3
+
+- [ ] 2
+
+- [x] 0
+
+- [ ] 1
