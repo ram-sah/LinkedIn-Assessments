@@ -1,7 +1,7 @@
 ## Cascading Style Sheets (CSS) LinkedIn Assessment 
 ![quote](images/RAM.png?raw=true)
 
-* Badge
+# Badge
 ![quote](images/RAM-Badge.png?raw=true)
 
 * https://www.linkedin.com/in/ram-sah/ 
@@ -912,7 +912,7 @@ p:first-child {
 
 - [ ] a=title {...}
 
-> ### Q61. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or it you need to support older browser version. What are two valid techniques used to clear floats?
+>### Q61. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or it you need to support older browser version. What are two valid techniques used to clear floats?
 
 - [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.
 
@@ -934,15 +934,15 @@ p:first-child {
 
 >### Q63. Which code would you use to absolutely position an element of the logo class?
 ```css
-[x] `.logo { position: absolute; left: 100px; top: 150px; }`
+[x] .logo { position: absolute; left: 100px; top: 150px; }
 
-[ ] `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`
+[ ] .logo { position: absolute; margin-left: 100px; margin-top: 150px; }
 
-[ ] `.logo { position: absolute; padding-left: 100px; padding-top: 150px; }`
+[ ] .logo { position: absolute; padding-left: 100px; padding-top: 150px; }
 
-[ ] `.logo { position: absolute; left-padding: 100px; top-padding: 150px; }`
+[ ] .logo { position: absolute; left-padding: 100px; top-padding: 150px; }
 ```
-> ### Q64. What selector and property would you use to scale an element to be 50% smaller on hover?
+>### Q64. What selector and property would you use to scale an element to be 50% smaller on hover?
 
 - [ ] element:hover {scale: 0.5;}
 
@@ -952,7 +952,7 @@ p:first-child {
 
 - [ ] element:hover {transform: scale(50%);}
 
-> ### Q65. Which choice uses the correct syntax for adding a hover pseudo class to <a> element?
+>### Q65. Which choice uses the correct syntax for adding a hover pseudo class to <a> element?
 
 - [ ] a hover {…}
 
