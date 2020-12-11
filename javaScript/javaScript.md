@@ -272,3 +272,74 @@ printA();
 
 - [ ] array 
  
+> ### Q24. How would you reference the text 'avenue' in the code shown?
+```js
+let roadTypes = ['street', 'road', 'avenue', 'circle'];
+```
+- [ ] roadTypes.2
+
+- [ ] roadTypes[3]
+
+- [ ] roadTypes.3
+
+- [x] roadTypes[2]
+
+>### Q25. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
+
+- [ ] /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
+
+- [x] /\d\d:\d\d:\d\d/
+
+- [ ] /[0-9]+:[0-9]+:[0-9]+/
+
+- [ ] / : : /
+
+>### Q26. Which Object method returns an iterable that can be used to iterate over the properties of an object?
+
+- [ ] Object.get()
+
+- [ ] Object.loop()
+
+- [ ] Object.each()
+
+- [x] Object.keys()
+
+>### Q27. What is one difference between collections created with Map and collections created with Object?
+
+- [ ] You can iterate over values in a Map in their insertion order.
+
+- [x] You can count the records in a Map with a single method call.
+
+- [ ] Keys in Maps can be strings.
+
+- [ ] You can access values in a Map without iterating over the whole collection.
+
+>### Q28. 0 && hi
+
+- [ ] false
+
+- [ ] ReferenceError
+
+- [ ] True
+
+- [x] 0
+
+>### Q29. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
+
+- [ ] Student.prototype = Person();
+
+- [ ] Student.parent = Person;
+
+- [x] Student.prototype = new Person();
+
+- [ ] Student.prototype = Person;
+
+>### Q30. Which statement is true about the "async" attribute for the HTML script tag?
+
+- [x] It can be used only for external JavaScript code.
+
+- [ ] It can be used for both internal and external JavaScript code.
+
+- [ ] It can be used only for internal JavaScript code.
+
+- [ ] It can be used only for internal or external JavaScript code that exports a promise.
