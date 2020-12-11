@@ -1,7 +1,5 @@
 ## Cascading Style Sheets (CSS) LinkedIn Assessment 
-* 15 multiple choice questions
-* 1.5 minutes per question
-* Score in the top 30% to earn a badge
+![quote](images/RAM.png?raw=true)
 
 > ### Q1. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element? 
 
