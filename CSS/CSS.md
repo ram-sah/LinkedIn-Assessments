@@ -727,3 +727,173 @@ a {
 - [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
 
 - [ ] The first value is the first choice, followed by a maximum of three alternatives.
+
+> ### Q49. When using media queries, media types are used to target a device category. Which choice lists current valid media types?
+
+- [ ] print, screen, aural
+
+- [ ] print, screen, television
+
+- [x] print, screen, speech
+
+- [ ] print, speech, device
+
+> ### Q50. In the following media query example, what conditions are being targeted?
+
+```css
+@media (min-width: 1024px), screen and (orientation: landscape) { … }
+```
+
+- [x] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
+- [ ] The rule will apply to a device that has a width of 1024px or narrower and is a screen device in landscape mode.
+- [ ] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
+- [ ] The rule will apply to a device that has a width of 1024px or narrower, or is a screen device in landscape mode.
+
+> ### Q51. Which items are valid values for the font-size property? (Select all that apply.)
+```css
+A. font-size: xsmall
+B. font-size: 50%
+C. font-size: 1em
+D. font-size: 20px
+```
+- [ ] C, D
+
+- [x] B, C, D
+
+- [ ] A, C
+
+- [ ] A, B, C, D
+
+> ### Q52. Which statement about the SVG image format is true?
+
+-[ ] SVGs work best for creating 3D graphics.
+
+-[x] SVGs can be created as a vector graphic or coded using SVG specific elements such as `<svg>, <line>,` and `<ellipse>`.
+
+- [ ] SVGs are a HAML-based markup language for creating vector graphics.
+
+- [ ] CSS cannot be applied to SVGs.
+
+> ### Q53. In this example, what color will Paragraph 1 be?
+
+```css
+p:first-of-type {
+  color: red;
+  }
+p {
+  color: blue;
+  }
+.container {
+  color: yellow;
+  }
+p:first-child {
+  color: green;
+  }
+```
+```html
+<div class="container">
+  <h1>Heading</h1>
+  <p>Paragraph1</p>
+  <p>Paragraph2</p>
+</div>
+```
+- [ ] blue
+
+- [ ] green
+
+- [x] red
+
+- [ ] yellow
+
+> ### Q54. CSS grid introduced a new length unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
+
+```css
+.grid {
+  display: grid;
+  width: 500px;
+  grid-template-columns: 50px 1fr 2fr;
+}
+```
+
+- [ ] The first column will have a width of 50px. The second column will be 50px wide and the third column will be 100px wide.
+- [x] The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.
+- [ ] The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
+- [ ] The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
+
+> ### Q55. What is the CSS selector for an `<a>` tag containing the title attribute?
+
+- [x] a[title]
+
+- [ ] a > title
+
+- [ ] a=title
+
+- [ ] a.title
+
+> ### Q56. In this image, the blue box and sample text are both contained within the same parent element. The blue box is floated on the left margin of the container. Why is it not contained with the container?
+
+![Sample text](images/rm-3.png?raw=true)
+
+- [x] Floating the blue box increased its height.
+
+- [ ] Floating the blue box on the left also moves it down.
+
+- [ ] Floating the blue box actually shifts it to the right and down.
+
+- [ ] Floating the blue box took it out of document flow and the container is sized only to the sample text.
+
+- ### Q57. What are three valid ways of adding CSS to an HTML page?
+
+- [ ] 1. External; CSS is written in a separate file.
+      2. Inline; CSS is added to the `<head>` of the HTML page.
+      3. Internal; CSS is included within the HTML tags.
+
+- [ ] 1. External; CSS is written in a separate file and is linked within the `<header>` element of the HTML file.
+      2. Inline; CSS is added to the HTML tag.
+      3. Internal; CSS is included within the `<header>` element of the HTML  file.
+
+- [x] 1. External; CSS is written in a separate file and is linked within the `<head>` element of the HTML file.
+      2. Internal; CSS is included within the `<header>` element of the HTML file.
+      3. Inline; CSS is added to the HTML tag.
+    
+- [ ] 1. External; CSS is written in a separate file and is linked within the `<head>` element of the HTML file .
+      2. Inline; CSS is added to the HTML tag.
+      3. Internal; CSS is included within the `<head>` element of the HTML file.
+      
+> ### Q58. Which choice is not a valid color value?
+
+- [ ] color: #000000;
+
+- [x] color: 000000;
+
+- [ ] color: rgb(0,0,0);
+
+- [ ] color: #000;
+
+> ### Q59. Review the HTML example below. Then choose the list of selectors that select the `<p>`, from lowest to highest specificity. 
+```html
+<section>
+  <p class="example">...</p>
+</section>
+```
+```css
+[ ] 1. p {...}
+    2. p.example {...}
+    3. section p {...}
+    4. [class*="example"] {...}
+
+[ ] 1. p {...}
+    2. section p {...}
+    3. [class*="example"] {...}
+    4. p.example {...}
+
+[x] 1. p.example {.1.}
+    2. section p {.3.}
+    3. [class*="example"] {.2.}
+    4. section * {.4.}
+
+[ ] 1. section * {...}
+    2. [class*="example"] {...}
+    3. p.example {...}
+    4. section p {...}
+```
