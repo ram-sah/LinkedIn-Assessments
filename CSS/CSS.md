@@ -1,6 +1,9 @@
 ## Cascading Style Sheets (CSS) LinkedIn Assessment 
 ![quote](images/RAM.png?raw=true)
 
+* Badge
+![quote](images/RAM-Badge.png?raw=true)
+
 > ### Q1. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element? 
 
 A. border-radius: 10px 10px 0 0;
@@ -842,7 +845,7 @@ p:first-child {
 
 - [ ] Floating the blue box took it out of document flow and the container is sized only to the sample text.
 
-- ### Q57. What are three valid ways of adding CSS to an HTML page?
+> ### Q57. What are three valid ways of adding CSS to an HTML page?
 
 - [ ] 1. External; CSS is written in a separate file.
       2. Inline; CSS is added to the `<head>` of the HTML page.
