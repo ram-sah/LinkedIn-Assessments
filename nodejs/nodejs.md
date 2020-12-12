@@ -1,3 +1,5 @@
+# Node.js Assessment:
+![quote](images/Node.png?raw=true)
 
 >### Q1. Which core module in Node provides an API to register callbacks to track asynchronous resources created inside a Node.js application?
 
@@ -95,21 +97,21 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}!`, (err) => {
 ```
 - [ ] It logs system information.
 
-- [ ] It creates a text file named hello.txt and appends customized text.
+- [ ] It creates a text file named `hello.txt` and appends customized text.
 
 - [ ] It creates a file named data and append numbers.
 
-- [ ] It creates an image file.It creates an image file.
+- [ ] It creates an image file.
 
 >### Q10. What is one way to install npm packages?
 
-- [ ] npm init <nameofpackage>
+- [ ] npm init` <nameofpackage>`
 
-- [ ] install npm <nameofpackage>
+- [ ] install npm` <nameofpackage>`
 
-- [ ] npm install <nameofpackage>
+- [ ] npm install` <nameofpackage>`
 
-- [ ] npm add <nameofpackage>
+- [ ] npm add` <nameofpackage>`
 
 >### Q11. What is the purpose of the file system (fs) module?
 
@@ -140,11 +142,11 @@ server.listen(port, hostname, () => {
 ```
 - [ ] server running at port 3000
 
-- [ ] server running at http://localhost:4000/
+- [ ] server running at` http://localhost:4000/`
 
-- [ ] server running at http://localhost:3000/
+- [ ] server running at `http://localhost:3000/`
 
-- [ ] server running at http://127.0.0.1:3000/
+- [ ] server running at `http://127.0.0.1:3000/`
 
 >### Q13. How can you delay the execution of the function fn by at least one second?
 
