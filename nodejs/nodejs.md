@@ -188,7 +188,6 @@ server.listen(port, hostname, () => {
 
 - [ ] yes, through the cluster module
 
-
 >### Q17. What is the purpose of the path module?
 
 - [ ] to provide utilities to test files
@@ -198,3 +197,148 @@ server.listen(port, hostname, () => {
 - [ ] to provide utilities to play with file and directory paths
 
 - [ ] to provide utilities to add and remove filesto provide utilities to add and remove files
+
+>### Q18.Which console method can be used to print the stack trace to the point of its execution?
+
+- [ ] stack
+- [ ] trace
+- [ ] debug
+- [ ] print
+
+>### Q19. Which of the following is a core module in Node?
+
+- [ ] webpack
+- [ ] crypto 
+- [ ] request
+- [ ] chalk
+
+
+>### Q20. Which special object is an instance of EventEmitter?
+
+- [ ] process
+- [ ] Buffer
+- [ ] root
+- [ ] require
+
+>### Q21. What is the shortest way to obtain the path name of the directory where your application is?
+
+- [ ] console.log(path.dirname(__filename));
+
+- [ ] console.log(dirname);
+
+- [ ] console.log(__dirname);
+
+- [ ] console.log(__filename);
+
+>### Q22. Which global object acts like a bridge between a Node script and the host operating system?
+
+- [ ] env
+
+- [ ] child_process
+
+- [ ] v8
+
+- [ ] process
+
+>### Q23. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?
+
+- [ ] reverse
+
+- [ ] resolve4
+
+- [ ] lookup
+
+- [ ] resolve
+
+>### Q24. Which choice is a method on the console object?
+
+- [ ] print
+
+- [ ] test
+
+- [ ] exit
+
+- [ ] time
+
+>### Q25. What command would you use to count the number of logical CPUs on the machine that is running Node?
+
+- [ ] node -p "process.cpus"
+
+- [ ] node -p "process.os.cpus"
+
+- [ ] node -p "os.cpus().length"
+
+- [ ] node -p "util.cpus().size"
+
+>### Q26. If you run script.js with the following code, how do you access the value passed to VAR inside script.js? 
+```js
+VAR=value node script.js
+```
+
+- [ ] process.argv[VAR]
+
+- [ ] process.env.VAR
+
+- [ ] process.argv[0]
+
+- [ ] environment.VAR
+
+>### Q27. Using ES6 imports, how would you import a module into a file?
+
+- [ ] exports.thisModule = {….};
+
+- [ ] npm install thisModule
+
+- [ ] import thismodule from./thismodule;
+
+- [ ] const thismodule = require(./thismodule);
+
+>### Q28. What module would you use to encrypt data?
+
+- [ ] Encrypt
+
+- [ ] Crypto
+
+- [ ] Cryptic
+
+- [ ] HTTP 
+
+>### Q29. Which object holds all arguments passed after executing a script with the node command?
+
+- [ ] os.arguments
+
+- [ ] process.argv
+
+- [ ] process.arguments
+
+- [ ] cli.args
+
+>### Q30. Which choice is not a valid stream in Node?
+
+- [ ] process.stdin
+
+- [ ] process.stdinfo
+
+- [ ] process.stderr
+
+- [ ] process.stdout
+
+>### Q31. Which assert module method is usually used to test the error-first argument in callbacks?
+
+- [ ] doesNotThrow
+
+- [ ] deepStrictEqual
+
+- [ ] ifError
+
+- [ ] fail
+
+>### Q32. When a JavaScript function is invoked in Node, where is a new frame placed?
+
+- [ ] the events queue
+
+- [ ] the event loop
+
+- [ ] the call stack
+
+- [ ] the poll phase

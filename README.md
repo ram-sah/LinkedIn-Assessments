@@ -3,15 +3,11 @@
 [![License: Apache](https://img.shields.io/badge/License-Apache2.0-e10079.svg)](https://opensource.org/licenses/Apache)
 <!-- ![Contributor](https://img.shields.io/badge/Contributor-1-gggddd.svg?style=flat-square) -->
 
-## Description: Check-Back for more updated Linkedin Test Quiz Questions 
+## Description: Check-Back for more updated Linkedin Quiz Questions 
 * This repository help you prepare for the LinkedIn skills Assessment quiz and to know the expect areas to target for your exam preparations. If you have found some incorrect answers, or want to contribute your answers, please feel free to create any PULL REQUEST changes => You are most welcome !
 
-- Skill Assessments Linkedin HTML (45 Questions with answers)
-- JavaScript : (23 Questions with answers)
-- CSS : (65 Questions with answers)
-
 ### Why should you take the Linkedin skill assessment?
-- Easy earning the LinkedIn skill badge 
+- Easy earning the LinkedIn skill badge with this repo. 
 - Candidates with skill badges appear ahead of others in the search result. (Source: engineering.linkedin.com)
 - Get noticed by the recruiter and increase the chances of getting hired
 
@@ -19,10 +15,11 @@
 
 | Sn.   | Linkedin-Assessment | Status |
 | ----- | ----- | ----- |
-| 1.    | [HTML](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/HTML/HTML-Quiz.md) | With answers |
-| 2.    | [CSS](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/CSS/CSS.md) | With answers |
+| 1.    | [HTML - (45 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/HTML/HTML-Quiz.md) | With answers |
+| 2.    | [CSS - (65 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/CSS/CSS.md) | With answers |
 | 3.    | [javaScript](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/javaScript/javaScript.md) | With answers |
-| 4.    | [NodeJs](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/nodejs.nodejs.md)  | With N/A |
+| 4.    | [NODEJS](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/NODEJS/nodejs.md) | With N/A |
+| 5.    | [REACT](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/react.react.md) | With N/A |
 
 
 
