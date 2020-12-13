@@ -145,7 +145,7 @@ server.listen(port, hostname, () => {
 
 - [ ] server running at `http://localhost:3000/`
 
-- [ ] server running at `http://127.0.0.1:3000/`
+- [x] server running at `http://127.0.0.1:3000/`
 
 >### Q13. How can you delay the execution of the function fn by at least one second?
 
