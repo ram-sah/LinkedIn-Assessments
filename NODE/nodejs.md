@@ -5,7 +5,7 @@
 
 - [ ] inspector
 
-- [ ] async_hooks
+- [x] async_hooks
 
 - [ ] dgram
 
@@ -19,11 +19,11 @@
 
 - [ ] util
 
-- [ ] string_decoder
+- [x] string_decoder
 
 >### Q3. Which choice is not a valid method on event emitters?
 
-- [ ] start
+- [x] start
 
 - [ ] on
 
@@ -35,7 +35,7 @@
 
 - [ ] to execute multi-threaded code in the Node environment
 
-- [ ] to insulate Addons from changes in the underlying JavaScript engine
+- [X] to insulate Addons from changes in the underlying JavaScript engine
 
 - [ ] to provide a quick way for users to create REST APIs
 
@@ -43,7 +43,7 @@
 
 >### Q5. Which statement about event emitters is false?
 
-- [ ] Event names must be camelCase strings.
+- [x] Event names must be camelCase strings.
 
 - [ ] Any values returned by the listeners for an emitted event are ignored.
 
@@ -53,7 +53,7 @@
 
 >### Q6.How do you start a Node application, if the entry file is index.js?
 
-- [ ] node index.js
+- [x] node index.js
 
 - [ ] node start
 
@@ -73,7 +73,7 @@
 
 >### Q8. How do you make an HTTP server object active and listen to requests on certain ports?
 
-- [ ] server.listen
+- [x] server.listen
 
 - [ ] server.run
 
@@ -82,7 +82,6 @@
 - [ ] server.start
 
 >### Q9. What does this code do?
-
 ```js
 const fs = require('fs');
 const os = require('os');
@@ -109,7 +108,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}!`, (err) => {
 
 - [ ] install npm` <nameofpackage>`
 
-- [ ] npm install` <nameofpackage>`
+- [x] npm install` <nameofpackage>`
 
 - [ ] npm add` <nameofpackage>`
 
@@ -117,7 +116,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}!`, (err) => {
 
 - [ ] to provide methods to work with databases.
 
-- [ ] to provide methods to work with files.
+- [x] to provide methods to work with files.
 
 - [ ] to add encryption to files.
 

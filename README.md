@@ -19,7 +19,7 @@
 | 2.    | [CSS - (65 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/CSS/CSS.md) | With answers |
 | 3.    | [javaScript](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/javaScript/javaScript.md) | With answers |
 | 4.    | [NODE](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/NODE/nodejs.md) | With N/A |
-| 5.    | [REACT](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/react.react.md) | With N/A |
+| 5.    | [REACT](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/REACTJS/react.md) | With N/A |
 
 
 
