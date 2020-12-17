@@ -96,7 +96,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}!`, (err) => {
 ```
 - [ ] It logs system information.
 
-- [ ] It creates a text file named `hello.txt` and appends customized text.
+- [x] It creates a text file named `hello.txt` and appends customized text.
 
 - [ ] It creates a file named data and append numbers.
 
@@ -145,17 +145,17 @@ server.listen(port, hostname, () => {
 
 - [ ] server running at `http://localhost:3000/`
 
-- [ ] server running at `http://127.0.0.1:3000/`
+- [x] server running at `http://127.0.0.1:3000/`
 
 >### Q13. How can you delay the execution of the function fn by at least one second?
 
-- [ ] elay(1000, fn);
+- [ ] delay(1000, fn);
 
 - [ ] setDelay(fn, 1000);
 
 - [ ] sleep(1000); fn;
 
-- [ ] setTimeout(fn, 1000);
+- [x] setTimeout(fn, 1000);
 
 >### Q14. What is the Node LTS version?
 
@@ -163,7 +163,7 @@ server.listen(port, hostname, () => {
 
 - [ ] It is an unstable version and is to be avoided.
 
-- [ ] It is the safest version for long-term support.
+- [x] It is the safest version for long-term support.
 
 - [ ] It is the version that will be retired soon.
 
@@ -173,7 +173,7 @@ server.listen(port, hostname, () => {
 
 - [ ] the libuv library
 
-- [ ] the VM (like V8 or Chakra)
+- [x] the VM (like V8 or Chakra)
 
 - [ ] the repl module
 
@@ -185,7 +185,7 @@ server.listen(port, hostname, () => {
 
 - [ ] yes, through the assert module
 
-- [ ] yes, through the cluster module
+- [x] yes, through the cluster module
 
 >### Q17. What is the purpose of the path module?
 
@@ -193,31 +193,40 @@ server.listen(port, hostname, () => {
 
 - [ ] to make network requests
 
-- [ ] to provide utilities to play with file and directory paths
+- [x] to provide utilities to play with file and directory paths
 
 - [ ] to provide utilities to add and remove filesto provide utilities to add and remove files
 
 >### Q18.Which console method can be used to print the stack trace to the point of its execution?
 
 - [ ] stack
-- [ ] trace
+
+- [x] trace
+
 - [ ] debug
+
 - [ ] print
 
 >### Q19. Which of the following is a core module in Node?
 
 - [ ] webpack
-- [ ] crypto 
+
+- [x] crypto 
+
 - [ ] request
+
 - [ ] chalk
 
 
 >### Q20. Which special object is an instance of EventEmitter?
 
 - [ ] process
+
 - [ ] Buffer
+
 - [ ] root
-- [ ] require
+
+- [x] require
 
 >### Q21. What is the shortest way to obtain the path name of the directory where your application is?
 
@@ -225,7 +234,7 @@ server.listen(port, hostname, () => {
 
 - [ ] console.log(dirname);
 
-- [ ] console.log(__dirname);
+- [x] console.log(__dirname);
 
 - [ ] console.log(__filename);
 
@@ -235,7 +244,7 @@ server.listen(port, hostname, () => {
 
 - [ ] child_process
 
-- [ ] v8
+- [ ] v8 -
 
 - [ ] process
 
@@ -245,7 +254,7 @@ server.listen(port, hostname, () => {
 
 - [ ] resolve4
 
-- [ ] lookup
+- [x] lookup
 
 - [ ] resolve
 
@@ -257,7 +266,7 @@ server.listen(port, hostname, () => {
 
 - [ ] exit
 
-- [ ] time
+- [x] time
 
 >### Q25. What command would you use to count the number of logical CPUs on the machine that is running Node?
 
@@ -265,7 +274,7 @@ server.listen(port, hostname, () => {
 
 - [ ] node -p "process.os.cpus"
 
-- [ ] node -p "os.cpus().length"
+- [x] node -p "os.cpus().length"
 
 - [ ] node -p "util.cpus().size"
 
@@ -278,7 +287,7 @@ VAR=value node script.js
 
 - [ ] process.env.VAR
 
-- [ ] process.argv[0]
+- [x] process.argv[0]
 
 - [ ] environment.VAR
 
@@ -288,7 +297,7 @@ VAR=value node script.js
 
 - [ ] npm install thisModule
 
-- [ ] import thismodule from./thismodule;
+- [x] import thismodule from ./thismodule;
 
 - [ ] const thismodule = require(./thismodule);
 
@@ -296,7 +305,7 @@ VAR=value node script.js
 
 - [ ] Encrypt
 
-- [ ] Crypto
+- [x] Crypto
 
 - [ ] Cryptic
 
@@ -304,7 +313,7 @@ VAR=value node script.js
 
 >### Q29. Which object holds all arguments passed after executing a script with the node command?
 
-- [ ] os.arguments
+- [ ] os.arguments -
 
 - [ ] process.argv
 
@@ -316,7 +325,7 @@ VAR=value node script.js
 
 - [ ] process.stdin
 
-- [ ] process.stdinfo
+- [x] process.stdinfo
 
 - [ ] process.stderr
 
@@ -328,7 +337,7 @@ VAR=value node script.js
 
 - [ ] deepStrictEqual
 
-- [ ] ifError
+- [x] ifError
 
 - [ ] fail
 
@@ -338,6 +347,57 @@ VAR=value node script.js
 
 - [ ] the event loop
 
-- [ ] the call stack
+- [x] the call stack
 
 - [ ] the poll phase
+
+>### Q33. Which line imports a promise-based version of the readFile method?
+
+- [ ] const { readFile } = require(fs).promises
+
+- [ ] const { readFile } = require(promises)
+
+- [ ] const { readFilePromise: readFile } = require(fs)
+
+- [ ] const { readFile } = require(fs)
+
+>### Q34. Which file does node-gyp use to read the build configuration of a module?
+
+- [ ] binding.gyp
+
+- [ ] gyp.json
+
+- [ ] .gyprc
+
+- [ ] package.gyp
+
+>### Q35. What is the use of require?
+
+- [ ] to load a module
+
+- [ ] to create an object literal
+
+- [ ] to create an application
+
+- [ ] to add a callback function to an object
+
+>### Q36. What is the package manager that comes with Node.js?
+
+- [ ] GitHub
+
+- [ ] Grunt
+
+- [x] npm
+
+- [ ] Gulp
+
+>### Q37. Which library provides Node.js with the event loop?
+
+- [x] V8
+
+- [ ] events
+
+- [ ] libuv
+
+- [ ] c-ares
+
