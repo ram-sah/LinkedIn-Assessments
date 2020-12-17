@@ -401,3 +401,261 @@ VAR=value node script.js
 
 - [ ] c-ares
 
+>### Q38. How do you check that a value is a date object in Node?
+
+- [x] util.types.isDate(value)
+
+- [ ] assert.isDate(value)
+
+- [ ] console.isDate(value)
+
+- [ ] util.date(value)
+
+>### Q39. Which CLI option can you use to debug a node script in Chrome DevTools?
+
+- [ ] --dev-tools
+
+- [x] --inspect
+
+- [ ] --chrome
+
+- [ ] --debug
+
+>#### Q40. Which object is used to manage the cache of required modules?
+
+- [ ] global.cache
+
+- [ ] module.cache
+
+- [ ] process.cache
+
+- [x] require.cache 
+
+>### Q41. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
+
+- [ ] spawn("ps -ef")
+
+- [x] exec("ps -ef")
+
+- [ ] exec("ps", "-ef")
+
+- [ ] fork("ps -ef")
+
+>### Q42. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
+
+- [ ] http.IncomingMessage
+
+- [ ] http.ServerRequest
+
+- [ ] http.ClientRequest
+
+- [ ] http.ServerResponse
+
+>### Q43. You have a script.js file with the single line of code shown here. What will be the output of executing script.js with the node command?
+```js
+console.log(arguments);
+``` 
+- [ ] ReferenceError: arguments is not defined 
+
+- [ ] an empty string 
+
+- [ ] undefined 
+
+- [x] an object representing an array that has five elements
+
+>### Q44. If EventEmitter is in scope, which line of code will have an event emitter emitting a change event?
+
+- [ ] EventEmitter.new().emit('change');
+
+- [ ] new EventEmitter('change');
+
+- [x] EventEmitter.emit('change');
+
+- [ ] (new EventEmitter()).emit('change');
+
+>### Q45. Which fs module method can be used to read the content of a file without buffering it in memory?
+
+- [ ] read
+
+- [ ] readFile
+
+- [x] createReadStream 
+
+- readFileSync
+
+>### Q46. What can you export with module.exports?
+
+- [ ] only variables and arrays
+
+- [ ] only objects
+
+- [ ] functions, objects, arrays, or anything you assign to the module
+
+- [ ] only functions
+
+>### Q47. What are the arguments passed to the module wrapper function?
+
+- [ ] exports, process, require, module, __filename, __dirname
+
+- [ ] exports, __filename, __dirname
+
+- [ ] exports, module, __filename, __dirname
+
+- [ ] exports, require, module, __filename, __dirname
+
+>### Q48. How can you use the Promise API with a callback-based function such as child_process.exec?
+
+- [ ] util.promisify(child_process.exec())
+
+- [ ] util.promisify(child_process.exec)
+
+- [ ] new Promise(child_process.exec())
+
+- [ ] new Promise(child_process.exec)
+
+>### Q49. Which choice is null a valid method on event emitters?
+
+- [ ] start
+
+- [ ] on
+
+- [ ] once
+
+- [ ] off
+
+>### Q50. Which choice is not a Node repl command?
+
+- [ ] .break
+
+- [ ] .history
+
+- [ ] .editor
+
+- [ ] .save
+
+>### Q51. Which object is a stream?
+
+- [ ] process.uptime
+
+- [ ] process
+
+- [x] process.stdout
+
+- [ ] Buffer
+
+>### Q52. Which choice is a core module in Node?
+
+- [ ] chalk
+
+- [ ] crypto
+
+- [ ] webpack
+
+- [ ] request
+
+>### Q53. What does the .node file extension represent?
+
+- [ ] a JavaScript file that can have a .node extension as well as the .js extension
+
+- [ ] a JSON file that can have a .node extension as well as the .json extension
+
+- [ ] a C++ Addon file that is built with node-gyp
+
+- [ ] a C++ file that can have a .node extension and that Node will be able to execute directly
+
+>### Q54. What is the command to run the index.js file and silence all process warnings?
+
+- [ ] node index.js --trace-warnings
+
+- [ ] node index.js --no-warnings
+
+- [ ] node --trace-warnings
+
+- [ ] node --no-warnings
+
+>### Q55. Which statement is true when you run the code shown below?
+
+```js
+require('child_process').fork('script.js');
+```
+- [ ] The forked process shares the event loop with the parent process
+
+- [ ] A new VM instance is created and the two VM instances will be shared between the forked process and the parent process.
+
+- [x] The forked process will have its own VM instance. 
+
+- [ ] The forked process shares the same VM thread with the parent process.
+
+>### Q56. Which core module in Node can you use to take advantage of multicore systems?
+
+- [ ] cluster
+
+- [ ] os
+
+- [ ] util
+
+- [ ] net
+
+>### Q57. Which of the following Buffer class methods returns an uninitialized buffer?
+
+- [x] allocUnsafe
+
+- [ ] concat
+
+- [ ] from
+
+- [ ] alloc
+
+>### Q58. What is the command to get a list of available commands for Node.js?
+
+- [ ] node index.js -x
+- [ ] node -v
+- [ ] node -h
+- [ ] node index.js -h
+
+>### Q59. How do you run Node in strict mode?
+
+- [ ] You have to use an external tool for that.
+
+- [ ] You have to use ES modules.
+
+- [ ] You have to use Chakra as the VM.
+
+- [ ] Use the V8 option --use-strict.
+
+>### Q60. Is it possible to create an https web server with Node.js?
+
+- [ ] Yes, you can use the http module.
+
+- [ ] Yes, you can use the https or http2 modules.
+
+- [ ] No, there are no modules supporting it yet.
+
+- [ ] Yes, you can use the path module.
+
+>### Q61. What is one way to check that a value is a date object in Node?
+
+- [ ] assert.isDate(value)
+
+- [ ] util.types.isDate(value)
+
+- [ ] util.date(value)
+
+- [ ] console.isDate(value)
+
+>### Q62. Which special object is an instance of EventEmitter?
+
+- [ ] process
+
+- [ ] Buffer
+
+- [ ] root
+
+- [ ] require
+
+>### Q63. Which module variable holds the resolved aboslute path of the current module file?
+
+- [ ] __pathname
+- [ ] __location
+- [ ] __flder
+- [x] __filename
