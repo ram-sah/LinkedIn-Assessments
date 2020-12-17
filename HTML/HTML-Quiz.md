@@ -20,7 +20,8 @@
   </figure>
 ```  
 > ### Q2. Review the code below. What is the best way to nest a two-cell table inside of Cell 2?
-```    <table>
+```HTML
+    <table>
       <tr>
           <td>Cell 1</td>
           <td>Cell 2</td>
@@ -117,13 +118,13 @@
 ```
 > ### Q8. What is the correct way to include a stylesheet named style.css in the <head> of your document?
 ```
-- [ ] <link style="style.css">
+[ ] <link style="style.css">
 
-- [ ] <style src="style.css- [ ]></style>
+[ ] <style src="style.css- [ ]></style>
 
-- [ ] <style link="style.css">
+[ ] <style link="style.css">
 
-- [x] <link rel="stylesheet" href="style.css">
+[x] <link rel="stylesheet" href="style.css">
 ```
 > ### Q9. What is the primary purpose of HTML?
 
@@ -461,13 +462,13 @@
 [x]  <img src="cubism.jpg"
     alt='Version of "Whistler\'s Mother" in cubist style'>
 
-[]  <img src="cubism.jpg"
+[ ]  <img src="cubism.jpg"
     alt="Version of ""Whistler's Mother"" in cubist style">
 
-[]  <img src="cubism.jpg"
+[ ]  <img src="cubism.jpg"
     alt="Version of "Whistler's Mother" in cubist style">
 
-[]  <img src="cubism.jpg"
+[ ]  <img src="cubism.jpg"
     alt="Version of \"Whistler's Mother\" in cubist style">
 ```
 > ### Q29.  What is the most semantically accurate way to mark up a main navigation bar, displayed in a horizontal direction?
