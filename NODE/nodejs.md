@@ -69,7 +69,7 @@
 
 - [ ] yes, through the debugger module.
 
-- [ ] yes, through the assert module
+- [ ] yes, through the assert module -
 
 >### Q8. How do you make an HTTP server object active and listen to requests on certain ports?
 
@@ -246,7 +246,7 @@ server.listen(port, hostname, () => {
 
 - [ ] v8 -
 
-- [ ] process
+- [ ] process 
 
 >### Q23. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?
 
@@ -315,7 +315,7 @@ VAR=value node script.js
 
 - [ ] os.arguments -
 
-- [ ] process.argv
+- [ ] process.argv -
 
 - [ ] process.arguments
 
@@ -353,7 +353,7 @@ VAR=value node script.js
 
 >### Q33. Which line imports a promise-based version of the readFile method?
 
-- [ ] const { readFile } = require(fs).promises
+- [x] const { readFile } = require(fs).promises
 
 - [ ] const { readFile } = require(promises)
 
@@ -363,7 +363,7 @@ VAR=value node script.js
 
 >### Q34. Which file does node-gyp use to read the build configuration of a module?
 
-- [ ] binding.gyp
+- [x] binding.gyp
 
 - [ ] gyp.json
 
@@ -373,7 +373,7 @@ VAR=value node script.js
 
 >### Q35. What is the use of require?
 
-- [ ] to load a module
+- [x] to load a module
 
 - [ ] to create an object literal
 
@@ -393,23 +393,23 @@ VAR=value node script.js
 
 >### Q37. Which library provides Node.js with the event loop?
 
-- [x] V8
+- [ ] V8
 
 - [ ] events
 
-- [ ] libuv
+- [x] libuv
 
 - [ ] c-ares
 
->### Q38. How do you check that a value is a date object in Node?
-
-- [x] util.types.isDate(value)
+>### Q38. What is one way to check that a value is a date object in Node?
 
 - [ ] assert.isDate(value)
 
-- [ ] console.isDate(value)
+- [x] util.types.isDate(value)
 
 - [ ] util.date(value)
+
+- [ ] console.isDate(value)
 
 >### Q39. Which CLI option can you use to debug a node script in Chrome DevTools?
 
@@ -443,13 +443,13 @@ VAR=value node script.js
 
 >### Q42. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
 
-- [ ] http.IncomingMessage
+- [ ] http.IncomingMessage -
 
 - [ ] http.ServerRequest
 
 - [ ] http.ClientRequest
 
-- [ ] http.ServerResponse
+- [ ] http.ServerResponse -
 
 >### Q43. You have a script.js file with the single line of code shown here. What will be the output of executing script.js with the node command?
 ```js
@@ -489,7 +489,7 @@ console.log(arguments);
 
 - [ ] only objects
 
-- [ ] functions, objects, arrays, or anything you assign to the module
+- [x] functions, objects, arrays, or anything you assign to the module
 
 - [ ] only functions
 
@@ -501,13 +501,13 @@ console.log(arguments);
 
 - [ ] exports, module, __filename, __dirname
 
-- [ ] exports, require, module, __filename, __dirname
+- [x] exports, require, module, __filename, __dirname
 
 >### Q48. How can you use the Promise API with a callback-based function such as child_process.exec?
 
 - [ ] util.promisify(child_process.exec())
 
-- [ ] util.promisify(child_process.exec)
+- [x] util.promisify(child_process.exec)
 
 - [ ] new Promise(child_process.exec())
 
@@ -515,7 +515,7 @@ console.log(arguments);
 
 >### Q49. Which choice is null a valid method on event emitters?
 
-- [ ] start
+- [x] start
 
 - [ ] on
 
@@ -527,7 +527,7 @@ console.log(arguments);
 
 - [ ] .break
 
-- [ ] .history
+- [x] .history
 
 - [ ] .editor
 
@@ -547,7 +547,7 @@ console.log(arguments);
 
 - [ ] chalk
 
-- [ ] crypto
+- [x] crypto
 
 - [ ] webpack
 
@@ -559,7 +559,7 @@ console.log(arguments);
 
 - [ ] a JSON file that can have a .node extension as well as the .json extension
 
-- [ ] a C++ Addon file that is built with node-gyp
+- [ ] a C++ Addon file that is built with node-gyp -
 
 - [ ] a C++ file that can have a .node extension and that Node will be able to execute directly
 
@@ -571,7 +571,7 @@ console.log(arguments);
 
 - [ ] node --trace-warnings
 
-- [ ] node --no-warnings
+- [x] node --no-warnings
 
 >### Q55. Which statement is true when you run the code shown below?
 
@@ -588,7 +588,7 @@ require('child_process').fork('script.js');
 
 >### Q56. Which core module in Node can you use to take advantage of multicore systems?
 
-- [ ] cluster
+- [x] cluster
 
 - [ ] os
 
@@ -598,7 +598,7 @@ require('child_process').fork('script.js');
 
 >### Q57. Which of the following Buffer class methods returns an uninitialized buffer?
 
-- [x] allocUnsafe
+- [x] allocUnsafe `[https://nodejs.org/api/buffer.html#buffer_buffer_constants_max_length]`
 
 - [ ] concat
 
@@ -609,8 +609,11 @@ require('child_process').fork('script.js');
 >### Q58. What is the command to get a list of available commands for Node.js?
 
 - [ ] node index.js -x
+
 - [ ] node -v
-- [ ] node -h
+
+- [x] node -h
+
 - [ ] node index.js -h
 
 >### Q59. How do you run Node in strict mode?
@@ -621,41 +624,45 @@ require('child_process').fork('script.js');
 
 - [ ] You have to use Chakra as the VM.
 
-- [ ] Use the V8 option --use-strict.
+- [ ] Use the V8 option --use-strict. -
 
 >### Q60. Is it possible to create an https web server with Node.js?
 
 - [ ] Yes, you can use the http module.
 
-- [ ] Yes, you can use the https or http2 modules.
+- [x] Yes, you can use the https or http2 modules.
 
 - [ ] No, there are no modules supporting it yet.
 
 - [ ] Yes, you can use the path module.
 
->### Q61. What is one way to check that a value is a date object in Node?
+>### Q61. Which module variable holds the resolved aboslute path of the current module file?
 
-- [ ] assert.isDate(value)
+- [x] __pathname
 
-- [ ] util.types.isDate(value)
-
-- [ ] util.date(value)
-
-- [ ] console.isDate(value)
-
->### Q62. Which special object is an instance of EventEmitter?
-
-- [ ] process
-
-- [ ] Buffer
-
-- [ ] root
-
-- [ ] require
-
->### Q63. Which module variable holds the resolved aboslute path of the current module file?
-
-- [ ] __pathname
 - [ ] __location
+
 - [ ] __flder
-- [x] __filename
+
+- [ ] __filename
+
+>### Q62. What is the Api that is designed to insulate Addons from changes in the underlying JavaScript engine?
+
+- [ ] A-API
+
+- [ ] Z-API
+
+- [x] N-API
+
+- [ ] X-API
+
+>### Q63. Which of the following modules is NOT a built-in module in Node?
+
+- [x] ftp 
+
+- [ ] events
+
+- [ ] dgram
+
+- [ ] http2
+
