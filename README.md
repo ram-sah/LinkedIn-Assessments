@@ -18,7 +18,7 @@
 | 1.    | [HTML - (45 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/HTML/HTML-Quiz.md) | With answers |
 | 2.    | [CSS - (65 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/CSS/CSS.md) | With answers |
 | 3.    | [javaScript](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/javaScript/javaScript.md) | With answers |
-| 4.    | [NODE](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/NODE/nodejs.md) | With N/A |
+| 4.    | [NODE - (63 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/NODE/nodejs.md) | With answers |
 | 5.    | [REACT](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/REACTJS/react.md) | With N/A |
 
 
@@ -42,3 +42,7 @@
 * https://developer.mozilla.org/en-US/ 
 * https://google.com
 * https://linkedIn.com
+
+ 
+## Badges: https://www.linkedin.com/in/ram-sah
+<img width="600" alt="Badge-HTML" src="./HTML/images/Badge-HTML.png?raw=true">

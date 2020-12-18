@@ -961,3 +961,9 @@ p:first-child {
 - [x] a:hover {…}
 
 - [ ] a :hover {…}
+
+## Credit: 
+* https://www.w3schools.com/ 
+* https://developer.mozilla.org/en-US/ 
+* https://google.com
+* https://linkedIn.com

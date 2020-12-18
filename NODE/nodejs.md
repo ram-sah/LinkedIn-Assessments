@@ -1,5 +1,6 @@
 # Node.js Assessment:
-![quote](images/Node.png?raw=true)
+<img width="600" alt="Node.png" src="images/Node.png?raw=true">
+<img width="600" alt="Badge-nodejs" src="images/Badge-nodejs.png?raw=true">
 
 >### Q1. Which core module in Node provides an API to register callbacks to track asynchronous resources created inside a Node.js application?
 
@@ -666,3 +667,8 @@ require('child_process').fork('script.js');
 
 - [ ] http2
 
+## Credit: 
+* https://www.w3schools.com/ 
+* https://nodejs.org/en/docs/
+* https://google.com
+* https://linkedIn.com

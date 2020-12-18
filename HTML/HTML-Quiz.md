@@ -1,5 +1,5 @@
 # Skill Assessments Linkedin HTML (45 Questions with answers)
-## Linkedin Assessments HTML  
+## Linkedin Assessments HTML 
 > ### Q1. What is the most semantically correct way to mark up this layout?
 ![quote](images/rm-6.png?raw=true)
 ```html
@@ -667,3 +667,9 @@
 - [ ] when linking style sheets, favicons, and preloading assets
 - [x] when linking style sheets and favicons
 - [ ] when linking style sheets, external URLs, and favicons
+
+## Credit: 
+* https://www.w3schools.com/ 
+* https://developer.mozilla.org/en-US/ 
+* https://google.com
+* https://linkedIn.com
