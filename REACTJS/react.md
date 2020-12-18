@@ -77,15 +77,15 @@ console.log(person("Jill", "Wolson"))
 
 - [x] Babel
 
->### Q7. Why should you use React Router's Link component instead of a basic <a> tag in React?
+>### Q7. Why should you use React Router's Link component instead of a basic `<a>` tag in React?
 
-- [ ] The <a> tag triggers a full page reload, while the Link component does not.
+- [ ] The `<a>` tag triggers a full page reload, while the Link component does not.
 
-- [ ] The <a> tag will cause an error when used in React.
+- [ ] The `<a>` tag will cause an error when used in React.
 
 - [ ] The Link component allows the user to use the browser's Back button.-
 
-- [ ] There is no difference—the Link component is just another name for the <a> tag.
+- [ ] There is no difference—the Link component is just another name for the `<a>` tag.
 
 >### Q8. When do you use useLayoutEffect?
 
@@ -102,14 +102,15 @@ console.log(person("Jill", "Wolson"))
 ```js
 let dish = <h1>Mac and Cheese</h1>;
 ```
-- [ ] let dish = <h1 class="heading">Mac and Cheese</h1>;
+```html
+[ ] let dish = <h1 class="heading">Mac and Cheese</h1>;
 
-- [x] let dish = <h1 className="heading">Mac and Cheese</h1>;
+[x] let dish = <h1 className="heading">Mac and Cheese</h1>;
 
-- [ ] let dish = <h1 class:"heading">Mac and Cheese</h1>;
+[ ] let dish = <h1 class:"heading">Mac and Cheese</h1>;
 
-- [ ] let dish = <h1 class={heading}>Mac and Cheese</h1>;
-
+[ ] let dish = <h1 class={heading}>Mac and Cheese</h1>;
+```
 >### Q10. What will this code render?
 ```js
 ReactDOM.render(
@@ -117,14 +118,15 @@ ReactDOM.render(
   document.getElementById("root")
 );
 ```
-- [ ] <h1>New Articles</h1>
+```html
+[ ] <h1>New Articles</h1>
 
-- [ ] <h1 id="heading">New Articles</h1>
+[ ] <h1 id="heading">New Articles</h1>
 
-- [ ] <h1 id="root">New Articles</h1>
+[ ] <h1 id="root">New Articles</h1>
 
-- [ ] <header id="root">New Articles</header>
-
+[ ] <header id="root">New Articles</header>
+```
 >### Q11. To create a constant in JavaScript, which keyword do you use?
 
 - [x] const
