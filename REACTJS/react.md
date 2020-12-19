@@ -177,3 +177,282 @@ ReactDOM.render(
 - [ ] React
 
 - [ ] ReactDOM
+
+>### Q16. What will happen when this useEffect Hook is executed, assuming name is not already equal to John?
+```js
+useEffect(() => {
+setName("John");
+}, [name]);
+```
+- [ ] It will cause an infinite loop.
+
+- [ ] It will cause an error immediately.
+
+- [ ] It will update the value of name once and not run again until name is changed from the outside.
+
+- [ ] It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.
+
+>### Q17. Currently, handleClick is being called instead of passed as a reference. How do you fix this? 
+```js
+<button onClick={this.handleClick()}>Click this</button>
+```
+```js
+- [ ] <button onClick={this.handleClick.bind(handleClick)}>Click this</button>
+
+- [ ] <button onClick={handleClick()}>Click this</button>
+
+- [ ] <button onclick={this.handleClick}>Click this</button>
+
+- [ ] <button onClick={this.handleClick}>Click this</button>
+```
+>### Q18. You have created a new method in a class component called handleClick, but it is not working. Which code is missing?
+```js
+class Button extends React.Component {
+
+    constructor(props) {
+         super(props);
+         // Missing line
+    }
+
+    handleClick() {...}
+}
+```
+```js
+[ ] this.handleClick.bind();
+
+[ ] this.handleClick = this.handleClick.bind(this);
+
+[ ] props.bind(handleClick);
+
+[ ] this.handleClick.bind(this);
+```
+>### Q19. You have written the following code but nothing is rendering. How do you fix this problem?
+```js
+const Heading = () => {
+  <h1>Hello!</h1>;
+};
+```
+- [ ] Add a render function
+
+- [x] Change the curly braces to parentheses or add a return statement before the h1 tag. 
+
+- [ ] Move the h1 to another component.
+
+- [ ] Surround the h1 in a div.
+
+>### Q20. If you created a component called Dish and rendered it to the DOM, what type of element would be rendered?
+
+```js
+function Dish() {
+  return <h1> Mac and Cheese</h1>;
+}
+
+ReactDOM.render(<Dish />, document.getElementById('root'));
+```
+- [ ] `div`
+- [ ] section
+- [ ] component
+- [x] `h1`
+
+>### Q21. Using object literal enhancement, you can put values back into an object. When you log person to the console, what is the output?
+```js
+const name = 'Rachel';
+const age = 31;
+const person = { name, age };
+console.log(person);
+```
+```js
+- [ ] {{name: "Rachel", age: 31}}
+- [x] {name: "Rachel", age: 31}
+- [ ] {person: "Rachel", person: 31}}
+- [ ] {person: {name: "Rachel", age: 31}}
+```
+>### Q22. What property do you need to add to the Suspense component in order to display a spinner or loading state?
+```js
+function MyComponent() {
+  return (
+    <Suspense>
+      <div>
+        <Message />
+      </div>
+    </Suspense>
+  );
+}
+```
+- [ ] lazy
+- [ ] loading
+- [x] fallback
+- [ ] spinner
+
+>### Q23. React components are composed to create a user interface. How are components composed?
+
+- [ ] by putting them in the same file
+
+- [x] by nesting components
+
+- [ ] with webpack
+
+- [ ] with code splitting
+
+>### Q24. What does this React element look like given the following function?
+```js
+React.createElement('h1', null, "What's happening?");
+```
+```html
+[ ] <h1 props={null}>What's happening?</h1>
+
+[x] <h1>What's happening?</h1>
+
+[ ] <h1 id="component">What's happening?</h1>
+
+[ ] <h1 id="element">What's happening?</h1>
+```
+>### Q25. All React components must act like --- with respect to their props.
+
+- [ ] monads
+
+- [x] pure functions
+
+- [ ] recursive functions
+
+- [] higher-order functions --
+
+>### Q26. Consider the following code from React Router. What do you call :id in the path prop?
+```js
+<Route path="/:id" />
+```
+- [ ] This is a route modal
+
+- [x] This is a route parameter
+
+- [ ] This is a route splitter
+
+- [ ] This is a route link
+
+>### Q27. If you want to import just the Component from the React library, what syntax do you use?
+```js
+[ ] import React.Component from 'react'
+
+[ ] import [ Component ] from 'react'
+
+[ ] import Component from 'react'
+
+[x] import { Component } from 'react'
+```
+>### Q28. To get the first item from the array ("cooking") using array destructuring, how do you adjust this line?
+```js
+const topics = ['cooking', 'art', 'history'];
+```
+```js
+[ ] const first = ["cooking", "art", "history"]
+
+[ ] const [] = ["cooking", "art", "history"]
+
+[ ] const [, first]["cooking", "art", "history"]
+
+[x] const [first] = ["cooking", "art", "history"]
+```
+>### Q29. How do you invoke setDone only when component mounts, using hooks?
+```js
+function MyComponent(props) {
+  const [done, setDone] = useState(false);
+  return <h1>Done: {done}</h1>;
+}
+```
+```js
+[ ] useEffect(() => { setDone(true); });
+
+[ ] useEffect(() => { setDone(true); }, []);
+
+[x] useEffect(() => { setDone(true); }, [setDone]);
+
+[ ] useEffect(() => { setDone(true); }, [done, setDone]);
+```
+>### Q30. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
+
+```js
+A. <button onClick="{this.handleClick}>Click Me</button>"
+B. <button onClick="{event => this.handleClick(event)}}>Click Me</button>"
+```
+- [ ] Button A will not have access to the event object on click of the button.
+
+- [x] Button B will not fire the handler this.handleClick successfully.
+
+- [ ] Button A will not fire the handler this.handleClick successfully.
+
+- [ ] There is no difference
+
+>### Q31. What is the name of this component?
+```js
+class Comp extends React.Component {
+  render() {
+    return <h1>Look at the time: {time}</h1>;
+ }
+}
+```
+- [ ] React.Component
+
+- [ ] h1
+
+- [ ] Comp
+
+- [ ] Component
+
+>### Q32. Which package contains the render() function that renders a React element tree to the DOM?
+
+- [ ] Render
+
+- [ ] DOM
+
+- [ ] React
+
+- [ ] ReactDOM
+
+>### Q33. What do you call the message wrapped in curly braces below?
+
+```js
+let message = 'Hi there';
+const element = <p>{message}</p>;
+```
+- [ ] a JS function
+
+- [ ] a JS element
+
+- [x] a JS expression 
+
+- [ ] a JSX wrapper
+
+>### Q34. You have added a style property to the h1 but there is an unexpected token error when it runs. How do you fix this? 
+```js
+const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>;
+```
+```html
+const element = <h1 style={blue}>Hi</h1>;
+
+const element = <h1 style="blue">Hi</h1>;
+
+const element = <h1 style="backgroundColor: "blue"">Hi</h1>;
+
+const element = <h1 style={{backgroundColor: "blue"}}>Hi</h1>;
+```
+>### Q35. What is the first argument, x, that is sent to the createElement function?
+```js
+React.createElement(x,y,z);
+```
+- [ ] data that should be displayed in the element
+
+- [ ] the order in which this element should be placed on the page
+
+- [ ] the properties of the element
+
+- [ ] the element that should be created
+
+>### Q36. If a function component should always render the same way given the same props, what is a simple performance optimization available for it?
+
+- [x] Wrap it in the `React.memo` higher-order component.
+
+- [ ] Implement the `useReducer` Hook.
+
+- [ ] Implement the `useMemo` Hook.
+
+- [ ] Implement the `shouldComponentUpdate` lifecycle method.
