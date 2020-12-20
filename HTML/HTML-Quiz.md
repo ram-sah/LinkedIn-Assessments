@@ -673,3 +673,5 @@
 * https://developer.mozilla.org/en-US/ 
 * https://google.com
 * https://linkedIn.com
+
+[(Back to top of the page)](#Linkedin-Assessments-HTML)

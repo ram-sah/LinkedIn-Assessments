@@ -1,5 +1,5 @@
-> # JavaScript:  
-<img width="600" alt="Badge-javaaScript" src="image/Badge-javaScript.png?raw=true">
+> # JavaScript Assessment
+![quote](image/Badge-javaScript.png?raw=true)
 
 > ### Q1. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
 ```js
@@ -362,3 +362,5 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 * https://developer.mozilla.org/en-US/ 
 * https://google.com
 * https://linkedIn.com
+
+[(Back to top of the page)](#JavaScript-Assessment)

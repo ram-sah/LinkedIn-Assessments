@@ -952,7 +952,7 @@ p:first-child {
 
 - [ ] element:hover {transform: scale(50%);}
 
->### Q65. Which choice uses the correct syntax for adding a hover pseudo class to <a> element?
+>### Q65. Which choice uses the correct syntax for adding a hover pseudo class to `<a>` element?
 
 - [ ] a hover {…}
 
@@ -967,3 +967,5 @@ p:first-child {
 * https://developer.mozilla.org/en-US/ 
 * https://google.com
 * https://linkedIn.com
+
+[(Back to top of the page)](#Badge)

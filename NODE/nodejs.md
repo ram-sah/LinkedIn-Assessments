@@ -432,6 +432,8 @@ VAR=value node script.js
 
 - [x] require.cache 
 
+><sup>[(Back to top of the page)](#Nodejs-Assessment)</sup>
+
 >### Q41. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
 
 - [ ] spawn("ps -ef")
@@ -672,3 +674,5 @@ require('child_process').fork('script.js');
 * https://nodejs.org/en/docs/
 * https://google.com
 * https://linkedIn.com
+
+>[(Back to top of the page)](#Nodejs-Assessment)
