@@ -42,9 +42,6 @@
 * https://google.com
 * https://linkedIn.com
 
- 
-## Badges: https://www.linkedin.com/in/ram-sah
-<img width="600" alt="Badge-HTML" src="./HTML/images/Badge-HTML.png?raw=true">
 
 ![Contributors](https://img.shields.io/badge/Contributors-3-gggddd.svg?style=flat-square)
 <table>
@@ -54,3 +51,7 @@
     <td align="center"><a href="https://github.com/jesseBiel"><img src="https://github.com/jesseBiel.png" width="100px;" alt=""/><br /><sub><b>jesse Biel</b></sub></a><br /><a href="https://github.com/ram-sah/LinkedIn-Assessments/commits?author=jesseBiel" title="Code">💻</a> <a href="#" title="Design">🎨</a></td>
     </tr>
 </table>
+
+ 
+## Badges: https://www.linkedin.com/in/ram-sah
+<img width="600" alt="Badge-HTML" src="./HTML/images/Badge-HTML.png?raw=true">
