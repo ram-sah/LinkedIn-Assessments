@@ -1,7 +1,6 @@
 # Linkedin Quiz Questions, Skill Assessments Test: 
 
 [![License: Apache](https://img.shields.io/badge/License-Apache2.0-e10079.svg)](https://opensource.org/licenses/Apache)
-<!-- ![Contributor](https://img.shields.io/badge/Contributor-1-gggddd.svg?style=flat-square) -->
 
 ## Description: Check-Back for more updated Linkedin Quiz Questions 
 * This repository help you prepare for the LinkedIn skills Assessment quiz and to know the expect areas to target for your exam preparations. If you have found some incorrect answers, or want to contribute your answers, please feel free to create any PULL REQUEST changes => You are most welcome !
@@ -46,3 +45,12 @@
  
 ## Badges: https://www.linkedin.com/in/ram-sah
 <img width="600" alt="Badge-HTML" src="./HTML/images/Badge-HTML.png?raw=true">
+
+![Contributors](https://img.shields.io/badge/Contributors-3-gggddd.svg?style=flat-square)
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ram-sah"><img src="https://github.com/ram-sah.png" width="100px;" alt=""/><br /><sub><b>Ram-sah</b></sub></a><br /><a href="https://github.com/ram-sah/LinkedIn-Assessments" title="Code">💻</a> <a href="#Ram-sah" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/sofiChang"><img src="https://github.com/sofiChang.png" width="100px;" alt=""/><br /><sub><b>sofiyal Chang</b></sub></a><br /><a href="https://github.com/ram-sah/LinkedIn-Assessments/commits?author=sofiChang" title="Code">💻</a> </td>
+    <td align="center"><a href="https://github.com/jesseBiel"><img src="https://github.com/jesseBiel.png" width="100px;" alt=""/><br /><sub><b>jesse Biel</b></sub></a><br /><a href="https://github.com/ram-sah/LinkedIn-Assessments/commits?author=jesseBiel" title="Code">💻</a> <a href="#" title="Design">🎨</a></td>
+    </tr>
+</table>

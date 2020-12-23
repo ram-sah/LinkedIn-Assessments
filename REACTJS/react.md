@@ -146,7 +146,7 @@ ReactDOM.render(
 
 >### Q13. What is the browser extension called that React developers use to debug applications?
 
-- [ ] React Developer Tools
+- [x] React Developer Tools
 
 - [ ] React Debug
 
@@ -166,7 +166,7 @@ ReactDOM.render(
 
 >### Q15. Which tool is not part of Create React App?
 
-- [ ] jQuery-
+- [x] jQuery
 
 - [ ] webpack
 
@@ -199,7 +199,7 @@ setName("John");
 
 [ ] <button onclick={this.handleClick}>Click this</button>
 
-[ ] <button onClick={this.handleClick}>Click this</button>
+[x] <button onClick={this.handleClick}>Click this</button>
 ```
 >### Q18. You have created a new method in a class component called handleClick, but it is not working. Which code is missing?
 ```js
@@ -209,7 +209,6 @@ class Button extends React.Component {
          super(props);
          // Missing line
     }
-
     handleClick() {...}
 }
 ```
@@ -579,7 +578,7 @@ class clock extends React.Component {
 
 >### Q47. Which term commonly describes React applications?
 
-- [ ] integrated
+- [ ] integrated -
 
 - [ ] closed
 
@@ -609,26 +608,26 @@ function Dish(props) {
 }
 ```
 ```js
-- [ ] function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }
+[ ] function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }
 
-- [x] function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }
+[x] function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }
 
-- [ ] function Dish(props) { return <h1>{name} {cookingTime}</h1>; }
+[ ] function Dish(props) { return <h1>{name} {cookingTime}</h1>; }
 
-- [ ] function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }
+[ ] function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }
 ```
 >### Q50. Currently, `handleClick` is being called instead of passed as a reference. How do you fix this?
 ```js
 <button onClick={this.handleClick()}>Click this</button>
 ```
 ```js
-- [x] <button onClick={this.handleClick.bind(handleClick}>Click this</button>
+[x] <button onClick={this.handleClick.bind(handleClick}>Click this</button>
 
-- [ ] <button onClick={handleClick()}>Click this</button>
+[ ] <button onClick={handleClick()}>Click this</button>
 
-- [ ] <button onClick={this.handleClick}>Click this</button>
+[ ] <button onClick={this.handleClick}>Click this</button>
 
-- [ ] <button onclick={this.handleClick}>Click this</button>
+[ ] <button onclick={this.handleClick}>Click this</button>
 ```
 >### Q51. Why might you use useReducer over useState in a React component?
 
