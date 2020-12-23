@@ -77,7 +77,7 @@ console.log(person("Jill", "Wolson"))
 
 >### Q7. Why should you use React Router's Link component instead of a basic `<a>` tag in React?
 
-- [ ] The `<a>` tag triggers a full page reload, while the Link component does not.
+- [x] The `<a>` tag triggers a full page reload, while the Link component does not.
 
 - [ ] The `<a>` tag will cause an error when used in React.
 
@@ -118,7 +118,7 @@ ReactDOM.render(
 ```html
 [ ] <h1>New Articles</h1>
 
-[ ] <h1 id="heading">New Articles</h1>
+[x] <h1 id="heading">New Articles</h1>
 
 [ ] <h1 id="root">New Articles</h1>
 
