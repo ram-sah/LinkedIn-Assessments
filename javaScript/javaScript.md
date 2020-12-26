@@ -363,4 +363,4 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 * https://google.com
 * https://linkedIn.com
 
-[(Back to top of the page)](#JavaScript-Assessment)
+### [(⬆ Back to Top of the page)](#JavaScript-Assessment)
