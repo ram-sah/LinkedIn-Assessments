@@ -1,5 +1,6 @@
 # ReactJs Assessment 
 
+
 >### Q1. How do you refactor this function using an arrow function?
 ```js
 function add(x, y) {
@@ -180,7 +181,7 @@ useEffect(() => {
 setName("John");
 }, [name]);
 ```
-- [ ] It will cause an infinite loop.
+- [ ] It will cause an infinite loop.-
 
 - [ ] It will cause an error immediately.
 
@@ -188,34 +189,32 @@ setName("John");
 
 - [ ] It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.
 
->### Q17. Currently, handleClick is being called instead of passed as a reference. How do you fix this? 
+>### Q17. Currently, handleClick is being called instead of passed as a reference. How do you fix this?
 ```js
 <button onClick={this.handleClick()}>Click this</button>
 ```
 ```js
-[ ] <button onClick={this.handleClick.bind(handleClick)}>Click this</button>
+[x] <button onClick={this.handleClick.bind(handleClick}>Click this</button>
 
 [ ] <button onClick={handleClick()}>Click this</button>
 
-[ ] <button onclick={this.handleClick}>Click this</button>
+[ ] <button onClick={this.handleClick}>Click this</button>
 
-[x] <button onClick={this.handleClick}>Click this</button>
+[ ] <button onclick={this.handleClick}>Click this</button>
 ```
 >### Q18. You have created a new method in a class component called handleClick, but it is not working. Which code is missing?
 ```js
 class Button extends React.Component {
-
-    constructor(props) {
-         super(props);
-         // Missing line
-    }
-    handleClick() {...}
+  constructor(props) {
+    super(props);
+    // Missing line  }
+  handleClick() {...}
 }
 ```
 ```js
 [ ] this.handleClick.bind();
 
-[ ] this.handleClick = this.handleClick.bind(this);
+[x] this.handleClick = this.handleClick.bind(this);
 
 [ ] props.bind(handleClick);
 
@@ -309,7 +308,7 @@ React.createElement('h1', null, "What's happening?");
 
 [ ] <h1 id="element">What's happening?</h1>
 ```
->### Q25. All React components must act like --- with respect to their props.
+>### Q25. All React components must act like -- with respect to their props.
 
 - [ ] monads
 
@@ -396,7 +395,7 @@ class Comp extends React.Component {
 
 - [ ] h1
 
-- [ ] Comp
+- [x] Comp
 
 - [ ] Component
 
@@ -408,7 +407,7 @@ class Comp extends React.Component {
 
 - [ ] React
 
-- [ ] ReactDOM
+- [x] ReactDOM
 
 >### Q33. What do you call the message wrapped in curly braces below?
 
@@ -424,18 +423,18 @@ const element = <p>{message}</p>;
 
 - [ ] a JSX wrapper
 
->### Q34. You have added a style property to the h1 but there is an unexpected token error when it runs. How do you fix this? 
+>### Q34. You have added a style property to the `<h1>` but there is an unexpected token error when it runs. How do you fix this? 
 ```js
 const element = <h1 style={ backgroundColor: "blue" }>Hi</h1>;
 ```
 ```html
-const element = <h1 style={blue}>Hi</h1>;
+[ ] const element = <h1 style={blue}>Hi</h1>;
 
-const element = <h1 style="blue">Hi</h1>;
+[ ] const element = <h1 style="blue">Hi</h1>;
 
-const element = <h1 style="backgroundColor: "blue"">Hi</h1>;
+[ ] const element = <h1 style="backgroundColor: "blue"">Hi</h1>;
 
-const element = <h1 style={{backgroundColor: "blue"}}>Hi</h1>;
+[x] const element = <h1 style={{backgroundColor: "blue"}}>Hi</h1>;
 ```
 >### Q35. What is the first argument, x, that is sent to the createElement function?
 ```js
@@ -447,7 +446,7 @@ React.createElement(x,y,z);
 
 - [ ] the properties of the element
 
-- [ ] the element that should be created
+- [ ] the element that should be created -
 
 >### Q36. If a function component should always render the same way given the same props, what is a simple performance optimization available for it?
 
@@ -502,7 +501,7 @@ class Huggable extends React.Component{
 	}
 }
 ```
-- [x] `<button onClick={(name) => this.hug(name)>Hug Button</button>`
+- [x] `<button onClick={(name) => this.hug(name)}>Hug Button</button>`
 
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>`
 
@@ -616,19 +615,16 @@ function Dish(props) {
 
 [ ] function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }
 ```
->### Q50. Currently, `handleClick` is being called instead of passed as a reference. How do you fix this?
-```js
-<button onClick={this.handleClick()}>Click this</button>
-```
-```js
-[x] <button onClick={this.handleClick.bind(handleClick}>Click this</button>
+>### Q50. Which Hook could be used to update the document's title?
 
-[ ] <button onClick={handleClick()}>Click this</button>
+[x] `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });` 
 
-[ ] <button onClick={this.handleClick}>Click this</button>
+[ ] `useEffect(() => { title = name + ' ' + lastname; });`
 
-[ ] <button onclick={this.handleClick}>Click this</button>
-```
+[ ] `useEffect(function updateTitle() { name + ' ' + lastname; });`
+
+[ ] `useEffect(function updateTitle() { title = name + ' ' + lastname; });`
+
 >### Q51. Why might you use useReducer over useState in a React component?
 
 - [ ] when you want to replace Redux
@@ -638,6 +634,182 @@ function Dish(props) {
 - [ ] when you want to improve performance
 
 - [ ] when you want to break your production app
+
+>### Q52. If you wanted to display the count state value in the component, what do you need to add to the curly braces in the h1?
+```js
+class Ticker extends React.component {
+  constructor(props) {
+     super(props);
+     this.state = { count: 0 };
+   }
+   render() {
+     return <h1>{
+         // Missing line
+     }</h1>
+  }
+}
+```
+- [ ] count
+
+- [ ] state.count
+
+- [ ] state
+
+- [x] this.state.count
+
+>### Q53. What is the JavaScript syntax extension that is commonly used to create React elements?
+
+- [ ] JavaScriptX
+
+- [ ] React JavaScript
+
+- [x] JSX
+
+- [ ] HTML
+
+>### Q54. Which class-based lifecycle method would be called at the same time as this effect Hook? 
+```js
+useEffect(() => {
+// do things
+}, []);
+```
+- [ ] componentWillUnmount
+
+- [ ] componentDidUpdate
+
+- [ ] render
+
+- [ ] componentDidMount-
+
+>### Q55. In which lifecycle method do you make requests for data in a class component?
+
+- [ ] constructor
+
+- [x] componentDidMount
+
+- [ ] componentWillReceiveProps
+
+- [ ] componentWillMount
+
+>### Q56. Which choice will not cause a React component to rerender?
+
+- [ ] the value of one of the component's props changes
+
+- [ ] if the component calls this.forceUpdate()
+
+- [x] one of the component's siblings rerenders-
+
+- [ ] if the component calls this.setState(...)
+
+>### Q57. Which answer best describes a function component?
+
+- [ ] A function component is required to create a React component.
+
+- [ ] A function component accepts a single props object and returns a React element.
+
+- [ ] A function component is the only way to create a component.
+
+- [x] A function component is the same as a class component.-
+
+>### Q58. What is the testing library most often associated with React?
+
+- [ ] Mocha
+
+- [ ] Chai
+
+- [ ] Sinon
+
+- [x] Jest 
+
+>### Q59. What can you use to handle code splitting?
+
+- [ ] `React.memo`
+
+- [ ] `React.split`
+
+- [x] `React.lazy`
+
+- [ ] `React.fallback`
+
+>### Q60. What is the name of this component?
+```js
+class Clock extends React.Component {
+   render() {
+    return <h1>Look at the time: {time}</h1>;
+   }
+  }
+```
+- [x] Clock
+
+- [ ] It does not have a name prop.
+
+- [ ] React.Component
+
+- [ ] Component
+
+>### Q61. How do you handle passing through the component tree without having to pass props down manually at every level?
+
+- [ ] React Send
+
+- [ ] React Pinpoint
+
+- [ ] React Router
+
+- [x] React Context 
+
+>### Q62. What is `[e.target.id]` called in the following code snippet?
+```js
+handleChange(e) {
+	this.setState({[e.target.id]: e.target.value })
+}
+```
+- [ ] a computer property name
+
+- [ ] a set value
+
+- [x] a dynamic key
+
+- [ ] a JSX code string
+
+>### Q63. Why is it important to avoid copying the values of props into a component's state where possible?
+
+- [ ] because you should never mutate state
+
+- [ ] because getDerivedStateFromProps() is an unsafe method to use
+
+- [x] because you want to allow a component to update in response to changes in the props 
+
+- [ ] because you want to allow data to flow back up to the parent
+
+>### Q64. How would you pass data to the Dish component in order to have the dish name "Mac and Cheese" display?
+```js
+function Dish(props) {
+  return <h1>{props.name}</h1>;
+}
+ReactDOM.render(
+  // Missing line
+  document.getElementById('root')
+);
+```
+```js
+[ ] <Dish "Mac and Cheese" />
+
+[ ] <Dish {name: "Mac and Cheese"} />
+
+[x] <Dish name="Mac and Cheese"/>
+
+[ ] <Dish {props.name="Mac and Cheese"}/>
+```
+
+>### Q65. Why might you use a React.ref?
+
+- [ ] to bind the function
+
+- [x] to directly access the DOM node
+
+- [ ] to refer to another JS file
+
+- [ ] to call a function
 
 
 ## Credits: 
