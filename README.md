@@ -19,6 +19,7 @@
 | 3.    | [javaScript - (31 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/javaScript/javaScript.md) | With answers |
 | 4.    | [NODE - (63 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/NODE/nodejs.md) | With answers |
 | 5.    | [REACT - (65 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/REACTJS/react.md) | With answers |
+| 6.    | [REACT - ( questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/JQuery/JQuery.md) | few answers |
 
 
 
@@ -46,9 +47,10 @@
 ![Contributors](https://img.shields.io/badge/Contributors-3-gggddd.svg?style=flat-square)
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ram-sah"><img src="https://github.com/ram-sah.png" width="100px;" alt=""/><br /><sub><b>Ram-sah</b></sub></a><br /><a href="https://github.com/ram-sah/LinkedIn-Assessments" title="Code">💻</a> <a href="#Ram-sah" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/sofiChang"><img src="https://github.com/sofiChang.png" width="100px;" alt=""/><br /><sub><b>sofiyal Chang</b></sub></a><br /><a href="https://github.com/ram-sah/LinkedIn-Assessments/commits?author=sofiChang" title="Code">💻</a> </td>
+    <td align="center"><a href="https://github.com/ram-sah"><img src="https://github.com/ram-sah.png" width="100px;" alt=""/><br /><sub><b>Ram-sah</b></sub></a><br /><a href="https://github.com/ram-sah/LinkedIn-Assessments" title="Code">💻</a> <a href="#Ram-sah" title="Content">⭐</a></td>
+    <td align="center"><a href="https://github.com/sofiChang"><img src="https://github.com/sofiChang.png" width="100px;" alt=""/><br /><sub><b>sofiyal Chang</b></sub></a><br /><a href="https://github.com/ram-sah/LinkedIn-Assessments/commits?author=sofiChang" title="Code">💻🖋</a> </td>
     <td align="center"><a href="https://github.com/jesseBiel"><img src="https://github.com/jesseBiel.png" width="100px;" alt=""/><br /><sub><b>jesse Biel</b></sub></a><br /><a href="https://github.com/ram-sah/LinkedIn-Assessments/commits?author=jesseBiel" title="Code">💻</a> <a href="#" title="Design">🎨</a></td>
+    
     </tr>
 </table>
 
