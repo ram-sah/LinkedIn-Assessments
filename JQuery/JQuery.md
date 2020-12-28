@@ -5,13 +5,13 @@
 
 - [ ] by checking the value of $('#same-address').checked
 
-- [ ] by checking the value of $('#same-address').prop('checked')
+- [x] by checking the value of $('#same-address').prop('checked')
 
 - [ ] by checking the value of $('#same-address').attr('checked')
 
 - [ ] by checking the value of $('#same-address').val()
 
->### Q2. The following page snippet includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from an API endpoint using AJAX. How can you add these new items to the .message-area--list element in the most performant way? 
+>### Q2. The following page snippet includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from an API endpoint using AJAX. How can you add these new items to the message-area--list element in the most performant way? 
 ```js
 <div class="message-area">
    <ul class="message-area--list">
@@ -47,7 +47,7 @@ $.get('//example.com/api/v1/messages')
 ```
 >### Q3. Which CSS selectors can you not use in jQuery?
 
-- [ ] None. All CSS selectors are compatible in jQuery.
+- [x] None. All CSS selectors are compatible in jQuery.
 
 - [ ] You cannot use multiple class selectors such as .class1.class2.
 
@@ -122,7 +122,7 @@ jQuery('p');
 
 - [ ] creates a new paragraph tag and inserts it into the body tag
 
-- [ ] selects all paragraphs on the page
+- [x] selects all paragraphs on the page
 
 - [ ] loads a paragraph tag from a remote server using AJAX
 
@@ -259,13 +259,13 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 </ul>
 ```
 ```js
-$('.quotes .menu-first')
+[ ] $('.quotes .menu-first')
 
-$('.quotes' + '.menu-first')
+[ ] $('.quotes' + '.menu-first')
 
-$('.quotes, .menu-first')
+[x] $('.quotes, .menu-first')
 
-$('.quotes + .menu-first')
+[ ] $('.quotes + .menu-first')
 ```
 >### Q12. Given the following HTML, How could we make this button disappear from the page using jQuery?
 
@@ -273,13 +273,13 @@ $('.quotes + .menu-first')
 <button>class="btn btn-primary" type="submit">Continue to checkout</button>
 ```
 ```js
-- [x] $('.btn-primary').hide();
+[x] $('.btn-primary').hide();
 
-- [ ] $('.btn-primary:visible').not();
+[ ] $('.btn-primary:visible').not();
 
-- [ ] $('.btn-primary').visibility(false);
+[ ] $('.btn-primary').visibility(false);
 
-- [ ] $('.btn-primary').show(false);
+[ ] $('.btn-primary').show(false);
 ```
 >### Q13. There are many ways to create elements that can be added to the page. Which answer is not one of those ways, assuming you have the following on the page? 
 ```html
