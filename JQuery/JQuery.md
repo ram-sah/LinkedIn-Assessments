@@ -162,7 +162,7 @@ $('.leaf').click( function(event) { console.log('Sub Item 1 got a click'); } );
 $('#main-menu').click(function(event) { console.log('Main menu got a click'); } );
 ```
 ```js
-[ ] event.stopPropagation();
+[x] event.stopPropagation();
 
 [ ] event.preventDefault();
 
