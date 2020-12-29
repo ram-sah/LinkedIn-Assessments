@@ -19,7 +19,7 @@
 | 3.    | [javaScript - (31 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/javaScript/javaScript.md) | With answers |
 | 4.    | [NODE - (63 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/NODE/nodejs.md) | With answers |
 | 5.    | [REACT - (65 questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/REACTJS/react.md) | With answers |
-| 6.    | [REACT - ( questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/JQuery/JQuery.md) | few answers |
+| 6.    | [JQuery - ( questions)](https://github.com/ram-sah/LinkedIn-Assessments/blob/master/JQuery/JQuery.md) | few answers |
 
 
 
