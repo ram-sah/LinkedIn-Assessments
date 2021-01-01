@@ -380,3 +380,217 @@ $('#sidebar').click(function(evt) {
 
 [ ] $target.is('img')
 ```
+>### Q18. Given this HTML code, how can you use one line to show the button if it is hidden, and hide it if it is visible?
+```html
+<button class="btn btn-primary" type="submit">Continue to checkout</button>
+```
+```js
+[ ] $('.btn-primary').css({ display: 'block' });
+
+[ ] $('.btn-primary').showHide();
+
+[ ] $('.btn-primary').not(':visible').show();
+
+[ ] $('.btn-primary').toggle();
+```
+>### Q19. Given this set of checkboxes, how can you select the one with the value of "blimp"? 
+```js
+<input type="checkbox" name="songs[]" value="satisfaction">
+<input type="checkbox" name="songs[]" value="respect">
+<input type="checkbox" name="songs[]" value="blimp">
+<input type="checkbox" name="songs[]" value="saturn">
+<input type="checkbox" name="songs[]" value="penguins">
+```
+```js
+[ ] $('input[value!="blimp"]');
+
+[ ] $('input[value="blimp"]');
+
+[ ] $('input:checkbox').attr('value', 'blimp');
+
+[ ] $('checkbox').val('blimp');
+```
+
+>### Q20. Along with DOM traversal and manipulation, jQuery offers several general-purpose helper functions that fill in some JavaScript gaps, especially before ES2015. Which is not a jQuery utility function?
+
+- [ ] jQuery.extend, which can merge objects and make complete deep copies of objects
+
+- [ ] jQuery.isMobile, which can tell whether the user is using a mobile browser
+
+- [ ] jQuery.isNumeric, which can check whether its argument is, or looks like, a number
+
+- [ ] jQuery.each, a general purpose iterator for looping over arrays or objects
+
+>### Q21. Suppose you have a page with only one link on it. How can you change the anchor tag so it links to example.com?
+```js
+[ ] $('a').href('http://www.example.com')
+
+[ ] $('a').attribute('href', 'http://www.example.com')
+
+[ ] $('a').data('href', 'http://www.example.com')
+
+[ ] $('a').attr('href', 'http://www.example.com')
+```
+>### Q22. Given the following CSS and HTML codes below, how could you apply the success class to the feedback div?
+```html
+.success {
+color: green;
+background: #ddffdd;
+}
+<div class="feedback">
+        Thank you for answering this survey.
+</div>
+```
+```js
+[ ] $('.feedback').hasClass('.success');
+[ ] $.css('.feedback', '.success');
+[x] $('.feedback').addClass('.success');
+[ ] $('.feedback').css('.success');
+```
+>### Q23. What is the difference between $('header').html() and $('header').text()?
+```js
+[x] $('header').html() returns the inner HTML of the header. $('header').text() returns only the text
+[ ] $('header').html() returns only the HTML tags used, without the text. $('header').text() returns only the text
+[ ] $('header').html() strips all HTML from the header. $('header').text() always returns an empty string.
+[ ] $('header').html() returns all headers in an HTML document. $('header').text() the first line of a text file.
+```
+>### Q24. How would you fire a callback when any AJAX request on a page has completed?
+```js
+[ ] $('body').on('ajaxComplete', function() { console.count('An AJAX request completed'); });
+
+[ ] $(document).ajaxComplete(function() { console.count('An AJAX request completed'); });
+
+[ ] $(document).on('ajax.complete', function() { console.count('An AJAX request completed'); });
+
+[ ] $('body').ajaxComplete(function() { console.count('An AJAX request completed'); });
+```
+>### Q25. Suppose we want to have an ball created from an HTML element (id=ball) move down and to the right from its original location when clicked, and move back into its original place when finished. Given a starting point of this, which of these snippets would accomplish that goal?
+```js
+\$('#ball').click(function() {
+// Our code goes here
+});
+```
+```js
+[x] $(this).animate({ top: '+=100', left: '+=100', }, { duration: 600, complete: function() { $(this).animate({ top: '-=100', left: '-=100', }, 600) } });
+
+[ ] $(this).animate({ top: '-=100', left: '-=100', }, 600, function() { $(this).animate({ top: '+=100', left: '+=100', }, 600) } });
+[ ] $(this).animate({ top: '=100', left: '=100', }, { duration: 600, complete: function() { $(this).animate({ top: 0, left: 0, }, 600) } });
+
+[ ] $(this).animate({ top: '100', left: '100', }, 600, function() { $(this).animate({ top: 0, left: 0, }, 600) } });
+```
+>### Q26. You want to take an element and any event handlers that go with it out of the DOM to do some work—without the changes affecting the rest of the page—and then move it somewhere else in the DOM, like right after the opening tag. What should go on the first line of this code snippet? 
+```js
+// what goes here?    
+// ... do some other hidden work on $example
+$example.prependTo(document.body);
+```
+```js
+var $example = $('#example').detach();
+
+var $example = $('#example').remove();
+
+var $example = $('#example').addBack().empty();
+
+var $example = $('#example').clone();
+```
+>### Q27. How can you get an AJAX request to go through without triggering any of jQuery's AJAX events?
+
+[ ] Set the option "global" to false.
+
+[ ] Set a success callback that returns false.
+
+[ ] Set the type option to "none."
+
+[ ] Set the processData option to false.
+
+>### Q28. You have an absolutely positioned element inside a relatively positioned parent element, and you want to animate that element within its parent element. What jQuery function is most useful for finding the initial coordinates of the .animate-me?
+
+```js
+<style>
+	.parent {
+		position: relative;
+		top: 3em;
+		width: 50%;
+		min-height: 50vh;
+		margin: 0 auto;
+	}
+
+	.animate-me {
+		position: absolute;
+		top: 40px;
+		right: 30px;
+	}
+</style>
+
+<div class="parent">
+	<div class="animate-me">
+		This box will move!
+	</div>
+</div>
+```
+```js
+[x] $('.animate-me').offset();
+
+[ ] $('.animate-me').each();
+
+[ ] $('.animate-me').position();
+
+[ ] $('.animate-me').offsetParent();`
+```
+>### Q29. As with many areas of JavaScript, keeping track of the meaning of this is important—and sometimes tricky. What does this mean at each of the two points in this custom plugin snippet? 
+```js
+$.fn.customPlugin = function() {
+   // Point 1
+
+   return this.each(function() {
+      // Point 2
+   })
+}
+$(document).customPlugin();
+```
+```js
+[ ] In this case, they mean the same thing: a DOM element.
+
+[ ] At Point 1, this means a jQuery object. [ ]  Point 2, it means a DOM element.
+
+[ ] In this case, they mean the same thing: a jQuery object.
+
+[ ] At Point 1, this means a DOM element. At Point 2, it means a jQuery object.
+```
+>### Q30. How do you change the current value of a text field with the class .form-item to "555-1212"?
+```js
+[ ] $('.form-item').set('value', '555-1212');
+
+[ ] $('.form-item').val('555-1212');
+
+[ ] $('.form-item').data('value', '555-1212');
+
+[ ] $.val('.form-item', '555-1212');
+```
+>### Q31. What does `$()` mean in jQuery?
+
+-[ ] It is a utility function that selects the first element from the document.
+
+-[ ] It is an alias to the main core method of jQuery itself—the same as writing jQuery().
+
+-[ ] It is a shorter way to write document.getElementById().
+
+-[ ] It is a utility function that selects the last element from the document.
+
+>### Q32. Given this set of checkboxes, how can you select the ones that have the phrase "sun" as part of the value?
+```html
+<input type="checkbox" name="artists[]" value="sun-ra">
+<input type="checkbox" name="artists[]" value="otis-redding">
+<input type="checkbox" name="artists[]" value="captain-beefheart">
+<input type="checkbox" name="artists[]" value="king-sunny-ade">
+<input type="checkbox" name="artists[]" value="weather-report">
+```
+```js
+[ ] $('input:checkbox').attr('value', '*sun*');
+
+[ ] $('checkbox').val(/sun/);
+
+[ ] $('input[value|="sun"]');
+
+[ ] $('input[value*="sun"]');
+```
