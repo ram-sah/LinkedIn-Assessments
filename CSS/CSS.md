@@ -13,13 +13,13 @@ B. border-top-left-radius: 10px; and border-top-right-radius: 10px;
 C. border-radius: 10px 0;
 D. border-top-radius: 10px;
 
-- [ ] B and CB and C
+- [ ] B and C
 
-- [ ] C and DC and D
+- [ ] C and D
 
-- [ ] A and BA and B
+- [x] A and B
 
-- [x] A and C
+- [ ] A and C
 
 > ### Q2. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
 ```css
