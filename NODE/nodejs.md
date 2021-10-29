@@ -450,7 +450,7 @@ VAR=value node script.js
 
 - [ ] http.ServerRequest
 
-- [ ] http.ClientRequest
+- [x] http.ClientRequest
 
 - [ ] http.ServerResponse -
 
@@ -668,6 +668,16 @@ require('child_process').fork('script.js');
 - [ ] dgram
 
 - [ ] http2
+
+>### Q64. How would you determine the number of cluster instances to start when using the cluster module?
+
+- [ ] const numInstances = process.cpus().length;
+
+- [x] const numInstances = require('os').cpus().length;
+
+- [ ] const numInstances = cluster.instances().length;
+
+- [ ] const numInstances = cluster.instances();
 
 ## Credit: 
 * https://www.w3schools.com/ 
