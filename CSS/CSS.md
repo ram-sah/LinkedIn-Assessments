@@ -332,13 +332,15 @@ p {
 
 > ### Q21. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
 
-- [x] the top left corner of the element
+- [ ] the top left corner of the element
 
-- [ ] the center of the element
+- [X] the center of the element
 
 - [ ] the top right corner of the element
 
 - [ ] the bottom left of the element
+
+[Reference:](https://www.w3schools.com/cssref/css3_pr_transform-origin.asp)
 
 > ### Q22. In the shorthand example below, which individual background properties are represented?
 ```css
