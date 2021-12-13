@@ -355,9 +355,9 @@
 > ### Q24. In this code, what is target? 
 `<a href="http://www.linkedin.com" target="_blank">Visit site</a>`
 
-- [x]	a tag
+- [ ]	a tag
 
-- [ ]	an attribute
+- [X]	an attribute
 
 - [ ]	content
 
