@@ -9,7 +9,7 @@ button.addEventListener('click', function(e) {
 ```
 - [ ]   e.stopReload();
 
-- [x]	e.preventDefault();
+- [x] e.preventDefault();
 
 - [ ]   e.Preventdefault();
 
@@ -255,7 +255,7 @@ var answer = 1; }
 printA();
 printA();
 ```
-- [ ]	1 then 1
+- [ ] 1 then 1
 
 - [ ] 1 then undefined
 
