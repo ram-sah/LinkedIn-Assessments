@@ -1,12 +1,12 @@
-## Cascading Style Sheets (CSS) LinkedIn Assessment 
+## Cascading Style Sheets (CSS) LinkedIn Assessment
 ![quote](images/RAM.png?raw=true)
 
 # Badge
 ![quote](images/RAM-Badge.png?raw=true)
 
-* https://www.linkedin.com/in/ram-sah/ 
+* https://www.linkedin.com/in/ram-sah/
 
-> ### Q1. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element? 
+> ### Q1. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element?
 
 A. border-radius: 10px 10px 0 0;
 B. border-top-left-radius: 10px; and border-top-right-radius: 10px;
@@ -176,9 +176,9 @@ h2 ~ p {
 
 - [x] P3 and P4
 
-> ### Q11. In this example, which selector has the highest specificity value for selecting the anchor link element? 
+> ### Q11. In this example, which selector has the highest specificity value for selecting the anchor link element?
 ```css
-ul li a 
+ul li a
 a
 .example a
 div a
@@ -200,7 +200,7 @@ grid-template-columns: 2fr 1fr;
 
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container.
 
-> ### Q13. Referring to the HTML markup and CSS example below, which element(s) will be targeted? 
+> ### Q13. Referring to the HTML markup and CSS example below, which element(s) will be targeted?
 ```css
 p:first-of-type:first-letter { color: red; }
 ```
@@ -227,7 +227,7 @@ p:first-of-type:first-letter { color: red; }
 
 - [x]  The first letter in paragraphs 1, 3, and 5 will be red.
 
-- [ ] Only the first letter in paragraph 1 will be red.Only 
+- [ ] Only the first letter in paragraph 1 will be red.Only
 
 > ### Q14. What is the correct order for listing different link states in a website so those states display correctly on the page?
 
@@ -250,7 +250,7 @@ p:first-of-type:first-letter { color: red; }
       :focus
 
 - [ ] a
-      a:hover 
+      a:hover
 
 > ### Q15. Which five style features are associated with the box model?
 
@@ -262,7 +262,7 @@ p:first-of-type:first-letter { color: red; }
 
 - [ ] font size, line height, letter spacing, width, height
 
-> ### Q16. What is the difference between these line-height settings? 
+> ### Q16. What is the difference between these line-height settings?
 ```css
 line-height: 20px;
 line-height: 2;
@@ -332,9 +332,9 @@ p {
 
 > ### Q21. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
 
-- [x] the top left corner of the element
+- [ ] the top left corner of the element
 
-- [ ] the center of the element
+- [x] the center of the element
 
 - [ ] the top right corner of the element
 
@@ -356,13 +356,13 @@ background: blue url(image.jpg) no-repeat scroll 0px 0px;
     background-position: no-repeat;
     background-scroll: scroll;
     background-size: 0px 0px;
-        
+
 [ ] background-color: blue;
     background-src: url(image.jpg);
     background-repeat: no-repeat;
     background-wrap: scroll;
     background-position: 0px 0px;
-    
+
 [ ] background-color: blue;
     background-src: url(image.jpg);
     background-repeat: no-repeat;
@@ -429,7 +429,7 @@ a:active {
 
 [x] a[href="*domain.com"] { color: pink; }
 
-[ ] a[href*="domain.com"] { color: rgb(255, 155, 155); } 
+[ ] a[href*="domain.com"] { color: rgb(255, 155, 155); }
 
 [ ] a[href*="domain.com"] { color: pink;}
 
@@ -548,7 +548,7 @@ font-weight: 400; font-weight: 700;
 > ### Q37. What element(s) do these selectors match to?
 ```css
 .nav {...}
-nav {...} 
+nav {...}
 #nav {...}
  ```
 - [ ] 1. an element with an id of "nav" 2. a nav element 3. an element with a class of "nav"
@@ -574,7 +574,7 @@ nav {...}
     li:nth-child(8) {
     margin: 0 5 px;
     }
- 
+
 [ ] li:nth-child(2n + 3) {
     margin: 0 5 px;
     }
@@ -637,7 +637,7 @@ a {
 - [ ] blue
 - [ ] red
 
-> ### Q43. Which style rule would make the image 50% smaller during a hover? 
+> ### Q43. Which style rule would make the image 50% smaller during a hover?
 `<img id="photo" alt="" src="..." />`
 
 - [ ] img#photo:hover {scale: 0.5;}
@@ -860,11 +860,11 @@ p:first-child {
 - [x] 1. External; CSS is written in a separate file and is linked within the `<head>` element of the HTML file.
       2. Internal; CSS is included within the `<header>` element of the HTML file.
       3. Inline; CSS is added to the HTML tag.
-    
+
 - [ ] 1. External; CSS is written in a separate file and is linked within the `<head>` element of the HTML file .
       2. Inline; CSS is added to the HTML tag.
       3. Internal; CSS is included within the `<head>` element of the HTML file.
-      
+
 > ### Q58. Which choice is not a valid color value?
 
 - [ ] color: #000000;
@@ -875,7 +875,7 @@ p:first-child {
 
 - [ ] color: #000;
 
-> ### Q59. Review the HTML example below. Then choose the list of selectors that select the `<p>`, from lowest to highest specificity. 
+> ### Q59. Review the HTML example below. Then choose the list of selectors that select the `<p>`, from lowest to highest specificity.
 ```html
 <section>
   <p class="example">...</p>
@@ -962,9 +962,9 @@ p:first-child {
 
 - [ ] a :hover {…}
 
-## Credit: 
-* https://www.w3schools.com/ 
-* https://developer.mozilla.org/en-US/ 
+## Credit:
+* https://www.w3schools.com/
+* https://developer.mozilla.org/en-US/
 * https://google.com
 * https://linkedIn.com
 

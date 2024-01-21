@@ -1,25 +1,45 @@
 # Skill Assessments Linkedin HTML (45 Questions with answers)
-## Linkedin Assessments HTML 
+
+## Linkedin Assessments HTML
+
 > ### Q1. What is the most semantically correct way to mark up this layout?
-![quote](images/rm-6.png?raw=true)
+>
+> ![quote](images/rm-6.png?raw=true)
+
 ```html
-[ ]<img src="q24.jpg" alt="Mini-cheeseburgers.">
-    <p>These mini cheeseburgers are served on a freshly baked pretzel bun with lettuce, tomato, avocado, and your choice of cheese.</p>
+[ ]<img src="q24.jpg" alt="Mini-cheeseburgers." />
+<p>
+  These mini cheeseburgers are served on a freshly baked pretzel bun with
+  lettuce, tomato, avocado, and your choice of cheese.
+</p>
 
-[ ]<img src="q24.jpg" alt="Mini-cheeseburgers.">
-    <caption>These mini cheeseburgers are served on a freshly baked pretzel bun with lettuce, tomato, avocado, and your choice of cheese.</caption>
+[ ]<img src="q24.jpg" alt="Mini-cheeseburgers." />
+<caption>
+  These mini cheeseburgers are served on a freshly baked pretzel bun with
+  lettuce, tomato, avocado, and your choice of cheese.
+</caption>
 
-[ ]<figure>
-   <img src="q24.jpg" alt="Mini-cheeseburgers.">
-   <caption>These mini cheeseburgers are served on a freshly baked pretzel bun with lettuce, tomato, avocado, and your choice of cheese.</caption>
-   </figure>
+[ ]
+<figure>
+  <img src="q24.jpg" alt="Mini-cheeseburgers." />
+  <caption>
+    These mini cheeseburgers are served on a freshly baked pretzel bun with
+    lettuce, tomato, avocado, and your choice of cheese.
+  </caption>
+</figure>
 
-[x]<figure>
-   <img src="q24.jpg" alt="Mini-cheeseburgers.">
-   <figcaption>These mini cheeseburgers are served on a freshly baked pretzel bun with lettuce, tomato, avocado, and your choice of cheese.</figcaption>
-  </figure>
-```  
+[x]
+<figure>
+  <img src="q24.jpg" alt="Mini-cheeseburgers." />
+  <figcaption>
+    These mini cheeseburgers are served on a freshly baked pretzel bun with
+    lettuce, tomato, avocado, and your choice of cheese.
+  </figcaption>
+</figure>
+```
+
 > ### Q2. Review the code below. What is the best way to nest a two-cell table inside of Cell 2?
+
 ```HTML
     <table>
       <tr>
@@ -63,28 +83,30 @@
         </table>
       <td>Cell 2</td>
 ```
-> ### Q3. In this code, what is the purpose of defer? 
+
+> ### Q3. In this code, what is the purpose of defer?
 
   <script defer src="myscript.js"></script>
 
-- [ ]  It downloads the script from the server when resources allow.
+- [ ] It downloads the script from the server when resources allow.
 
-- [x]  It runs the script after HTML parsing is complete.
+- [x] It runs the script after HTML parsing is complete.
 
-- [ ]  It runs the script when it is ready.
+- [ ] It runs the script when it is ready.
 
-- [ ]  It pauses the parsing of HTML code while the script runs.
+- [ ] It pauses the parsing of HTML code while the script runs.
 
 > ### Q4. What is the purpose of async in this code?
-```  <script async src="myscript.js"></script>```
+>
+> `  <script async src="myscript.js"></script>`
 
-- [ ]  It runs the script when the script is ready.
+- [ ] It runs the script when the script is ready.
 
-- [x]  It pauses the parsing of HTML code while the script runs.
+- [x] It pauses the parsing of HTML code while the script runs.
 
-- [ ]  It runs the script after HTML parsing is complete.
+- [ ] It runs the script after HTML parsing is complete.
 
-- [ ]  It downloads the script from the server when resources allow.
+- [ ] It downloads the script from the server when resources allow.
 
 > ### Q5. What is the difference between the `<svg>` and `<canvas>` tags?
 
@@ -97,6 +119,7 @@
 - [ ] `<svg>` cannot be used as a background image, while `<canvas>` can be used as a background.
 
 > ### Q6. What is the purpose of `<caption>`?
+
 ```
 [ ] <caption> provides captions for <audio>, <video>, <img>, and <table>.
 
@@ -106,7 +129,9 @@
 
 [ ] <caption> provides captions for <audio>, <video>, and <table>.
 ```
+
 > ### Q7. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
+
 ```
 [ ] <a href="tel">802-555-1212</a>
 
@@ -116,7 +141,9 @@
 
 [x] <a href="tel:802-555-1212">Call me</a>
 ```
+
 > ### Q8. What is the correct way to include a stylesheet named style.css in the <head> of your document?
+
 ```
 [ ] <link style="style.css">
 
@@ -126,6 +153,7 @@
 
 [x] <link rel="stylesheet" href="style.css">
 ```
+
 > ### Q9. What is the primary purpose of HTML?
 
 - [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
@@ -136,26 +164,31 @@
 
 - [ ] HTML structures and provides a rudimentary look to webpages.
 
-> ### Q10. What is the best semantic markup for this sentence?  
+> ### Q10. What is the best semantic markup for this sentence?
+
       On July 21, 1969, Neil Armstrong said, "That's one small step for man, one giant leap for mankind."
+
 ```
-[x] <p>On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, 
+[x] <p>On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said,
       <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
 
-[ ] <p>On July 21, 1969, Neil Armstrong said, 
+[ ] <p>On July 21, 1969, Neil Armstrong said,
       <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">"That's one small step for man, one giant leap for mankind."</q></p>
 
-[ ] <p>On July 21, 1969, Neil Armstrong said, 
+[ ] <p>On July 21, 1969, Neil Armstrong said,
       <q>"That's one small step for man, one giant leap for mankind."</q></p>
 
-[ ] <p>On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, 
+[ ] <p>On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said,
       <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
 ```
-> ### Q11.  What is the correctly nested markup for this list? 
-![quote](images/rm-8.png?raw=true)
+
+> ### Q11. What is the correctly nested markup for this list?
+>
+> ![quote](images/rm-8.png?raw=true)
 
     Bulleted list with one bullet (Office Supplies), two subbullets (Stapler and Paper clips), another bullet (Groceries), and one subbullet (Milk)
-```    
+
+```
 [x] <ul>
       <li>Office Supplies</li>
         <ul>
@@ -205,7 +238,9 @@
     </ul>
 
 ```
-> ### Q12.  What is the best way to code three choices within a form so that the user can select only one item?
+
+> ### Q12. What is the best way to code three choices within a form so that the user can select only one item?
+
 ```
 [ ]  <fieldset>
         <label>Options</label>
@@ -243,33 +278,36 @@
       <label for="choice-3">Choice 3</label>
   </fieldset>
 ```
-> ### Q13.	What does the poster attribute do in the `<video>` tag?
-- [x]  It specifies an image that should display while the video downloads and until the video played.
+
+> ### Q13. What does the poster attribute do in the `<video>` tag?
+
+- [x] It specifies an image that should display while the video downloads and until the video played.
 - [ ]
 
 > ### Q14. Which list comprises three empty elements?
-[ ]`	<area>	<embed>	<strong>`
-	
-[ ]	`<link>	<meta>	<title>`
-	
-[ ]	`<input>	<br>	<p>`
-	
-[x]`	<wbr>	<base>	<source>`
-	
+>
+> [ ]`  <area>  <embed> <strong>`
+
+[ ] `<link> <meta>  <title>`
+
+[ ] `<input>  <br>  <p>`
+
+[x]`  <wbr> <base>  <source>`
+
 > ### Q15. Which statement is correct?
 
 - [ ] The `<main>` element represents the dominant content of an `<article>` in a document.
 
-- [ ] The `<main>` element represents the dominant content of a `<section>` of a document. 
-    You may have one `<main>`element per section.
+- [ ] The `<main>` element represents the dominant content of a `<section>` of a document.
+      You may have one `<main>`element per section.
 
-- [x] The `<main>` element represents the dominant content of your document. 
-    There can be only one `<main>` element that is not hidden.
+- [x] The `<main>` element represents the dominant content of your document.
+      There can be only one `<main>` element that is not hidden.
 
-- [ ] The `<article>` element represents the dominant content of your document. 
-    There can be only one `<article>`element that is not hidden.
+- [ ] The `<article>` element represents the dominant content of your document.
+      There can be only one `<article>`element that is not hidden.
 
-> ### Q16.	What is the most semantically accurate way to mark up this sentence?
+> ### Q16. What is the most semantically accurate way to mark up this sentence?
 
     Hmm, Mary thought. I wonder how I should mark up this sentence.
 
@@ -283,87 +321,91 @@
 
 > ### Q17. What does the <wbr> tag do?
 
-- [ ]	It formats a sentence to be easily breakable.
+- [ ] It formats a sentence to be easily breakable.
 
-- [ ]	It requires the browser to wrap the current line at that point.
+- [ ] It requires the browser to wrap the current line at that point.
 
-- [ ]	It breaks a word into two pieces, using a hyphen to connect the words.
+- [ ] It breaks a word into two pieces, using a hyphen to connect the words.
 
-- [x]	It presents an opportunity for a break in a very long word, if needed for proper page display.
+- [x] It presents an opportunity for a break in a very long word, if needed for proper page display.
 
 > ### Q18. Review the code below. What is the absolute URL for a page called page.html?
 
 `<base href="http://www.linkedin.com/dir/">`
 
-[ ]	page.html
+[ ] page.html
 
-[ ]	dir/page.html
+[ ] dir/page.html
 
-[ ]	http://www.linkedin.com/page.html
+[ ] http://www.linkedin.com/page.html
 
-[x]	http://www.linkedin.com/dir/page.html
+[x] http://www.linkedin.com/dir/page.html
 
 > ### Q19. You want to have single spacing in between some lines, like in a poem or an address. Which approach should you use?
 
-- [ ]	Wrap the text in a box that is the right width so everything wraps correctly. Set the box width with CSS.
+- [ ] Wrap the text in a box that is the right width so everything wraps correctly. Set the box width with CSS.
 
-- [x]	Separate the lines with the `<br>` tag.
+- [x] Separate the lines with the `<br>` tag.
 
-- [ ]	Separate lines with a `<p>`, then use CSS to make single spacing.
+- [ ] Separate lines with a `<p>`, then use CSS to make single spacing.
 
-- [ ]	Use the `<pre>` tag to make the line spacing look exactly like you want.
+- [ ] Use the `<pre>` tag to make the line spacing look exactly like you want.
 
 > ### Q20. What is the correct way to code a comment in HTML?
 
-- [ ]	//this is a comment
+- [ ] //this is a comment
 
-- [x]	`<!-- this is a comment -->`
+- [x] `<!-- this is a comment -->`
 
-- [ ]	<! this is a comment ->
+- [ ] <! this is a comment ->
 
-- [ ]	/* this is a comment */
+- [ ] /_ this is a comment _/
 
 > ### Q21. For the HTML code below, when will "Sample Text" display to the browser?
-  `<noscript>Sample Text</noscript>`
+>
+> `<noscript>Sample Text</noscript>`
 
-- [x]	when JavaScript is not supported by the browser or if JavaScript is disabled in the browser.
+- [x] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser.
 
-- [ ]	when JavaScript is disabled in the web browser.
+- [ ] when JavaScript is disabled in the web browser.
 
-- [ ]	when there is no JavaScript used on this webpage.
+- [ ] when there is no JavaScript used on this webpage.
 
-- [ ]	when JavaScript is not supported by the web browser.
+- [ ] when JavaScript is not supported by the web browser.
 
-> ### Q22.	Which image formats can be displayed by all web browsers?
+> ### Q22. Which image formats can be displayed by all web browsers?
 
-- [ ]	JPG, GIF, TIF
-- [x]	PNG, GIF, JPG
-- [ ]	JPG, TIF, BMP
-- [ ]	TIF, BMP, GIF
+- [ ] JPG, GIF, TIF
+- [x] PNG, GIF, JPG
+- [ ] JPG, TIF, BMP
+- [ ] TIF, BMP, GIF
 
 > ### Q23. In the code below, what is the purpose of the lang attribute?
-`<p lang="en-GB">Welcome to our wonderful website.</p>`
+>
+> `<p lang="en-GB">Welcome to our wonderful website.</p>`
 
-- [ ]	It establishes the language for the paragraph—in this case, English. 
+- [ ] It establishes the language for the paragraph—in this case, English.
 
-- [ ]	It establishes the language for the website—in this case, English. 
+- [ ] It establishes the language for the website—in this case, English.
 
-- [ ]	It establishes the language and dialect for the website—in this case, British English. 
+- [ ] It establishes the language and dialect for the website—in this case, British English.
 
-- [x]	It establishes the language and dialect for the paragraph—in this case, British English.
+- [x] It establishes the language and dialect for the paragraph—in this case, British English.
 
-> ### Q24. In this code, what is target? 
-`<a href="http://www.linkedin.com" target="_blank">Visit site</a>`
+> ### Q24. In this code, what is target?
+>
+> `<a href="http://www.linkedin.com" target="_blank">Visit site</a>`
 
-- [x]	a tag
+- [ ] a tag
 
-- [ ]	an attribute
+- [x] an attribute
 
-- [ ]	content
+- [ ] content
 
-- [ ]	an element
+- [ ] an element
 
-> ### Q25.  Review the code below. How do you include subnavigation for Link 2 that includes a link? 
+> ### Q25. Review the code below. How do you include subnavigation for Link 2 that includes a link?
+
 ```
   <nav><ul>
     <li><a href="#">Link 1</a></li>
@@ -407,19 +449,24 @@
     <li><a href="#">Link 3</a></li>
   </ul></nav>
 ```
+
 > ### Q26. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
-![quote](images/rm-7.png?raw=true)
+>
+> ![quote](images/rm-7.png?raw=true)
+
 ```
-[ ]	<a href="../../info.html">See information</a>
+[ ] <a href="../../info.html">See information</a>
 
-[ ]	<a href="../info.html">See information</a>
+[x] <a href="../info.html">See information</a>
 
-[x]	<a href="../work/info.html">See information</a>
+[ ] <a href="../work/info.html">See information</a>
 
-[ ]	<a href="info.html">See information</a>
+[ ] <a href="info.html">See information</a>
 ```
-> ### Q27.  The code below contains some errors. Which choice corrects all of the errors? 
-```  <table>
+
+> ### Q27. The code below contains some errors. Which choice corrects all of the errors?
+
+```<table>
     <tr>Cell 1</tr>
     <td>Cell 2</td>
     <caption>A table</caption>
@@ -457,7 +504,9 @@
     </td>
   </table>
 ```
-> ### Q28.   What is the correct markup to provide a quote in the alt attribute of an image?
+
+> ### Q28. What is the correct markup to provide a quote in the alt attribute of an image?
+
 ```
 [x]  <img src="cubism.jpg"
     alt='Version of "Whistler\'s Mother" in cubist style'>
@@ -471,36 +520,39 @@
 [ ]  <img src="cubism.jpg"
     alt="Version of \"Whistler's Mother\" in cubist style">
 ```
-> ### Q29.  What is the most semantically accurate way to mark up a main navigation bar, displayed in a horizontal direction?
+
+> ### Q29. What is the most semantically accurate way to mark up a main navigation bar, displayed in a horizontal direction?
+
 ```
 [ ] <nav>
       <ol>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>                
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ol>
     </nav>
 
 [ ]  <p>
     <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |                
-    <a href="contact.html">Contact</a> 
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a>
     </p>
 
 [x] <nav>
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>                
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
     </nav>
 
 [ ]  <nav>
     <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |                
-    <a href="contact.html">Contact</a> 
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a>
   </nav>
 ```
+
 > ### Q30. Which statement is false?
 
 - [ ] Inline elements can be nested inside block elements.
@@ -511,7 +563,7 @@
 
 - [ ] Block elements can be nested inside block elements.
 
-> ### Q31. what is the correct way to describe an empty element? 
+> ### Q31. what is the correct way to describe an empty element?
 
 - [ ] It has child but no closing tag.
 
@@ -532,6 +584,7 @@
 - [ ] for blog posts and other social media items.
 
 > ### Q33. How will a video look displayed on a fully loaded webpage if the `<video>` tags is used and the autoplay attribute is not set?
+
 - [ ] It will display nothing unless the poster attribute is set.
 
 - [ ] It will a black window unless the poster attribute is set.
@@ -551,6 +604,7 @@
 - [x] `<input type="num">`
 
 > ### Q35. What is the semantically correct way to mark up this layout?
+
 ```
 [ ] <h4>Mailing Address</h4>
     <p><em>
@@ -580,30 +634,32 @@
     <a href="mailto:info@linkedin.com">info@linkedin.com</a>
     <em></address>
 ```
+
 > ### Q36. What is the best semantic way to indicate that text refers to keyboard entry?
 
-- [ ]  `<p>Press the <tt>Enter</tt> key to proceed.</p>`
+- [ ] `<p>Press the <tt>Enter</tt> key to proceed.</p>`
 
-- [ ]  `<p>Press the <samp>Enter</samp> key to proceed.</p>`
+- [ ] `<p>Press the <samp>Enter</samp> key to proceed.</p>`
 
 - [x] ` <p>Press the <kbd>Enter</kbd> key to proceed.</p>`
 
-- [ ]  `<p>Press the Enter key to proceed.</p>`
+- [ ] `<p>Press the Enter key to proceed.</p>`
 
 > ### Q37. What does this code do?
-  `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
+>
+> `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
 
-- [ ]  The browser plays the sound once automatically in the background. 
-        The user has no  control over the sound.
+- [ ] The browser plays the sound once automatically in the background.
+      The user has no control over the sound.
 
-- [x]  The browser plays the sound automatically and continuously in the background.
-       The user has no control over the sound.
+- [x] The browser plays the sound automatically and continuously in the background.
+      The user has no control over the sound.
 
-- [ ]  When the Play button is pressed, the browser plays the sound over and 
-        over again until the user stops it.
+- [ ] When the Play button is pressed, the browser plays the sound over and
+      over again until the user stops it.
 
-- [ ]  The browser plays the sound automatically and continuously in the background. 
-        The user may stop the sound at any time.
+- [ ] The browser plays the sound automatically and continuously in the background.
+      The user may stop the sound at any time.
 
 > ### Q38. What is the most semantically accurate way to mark up this sentence? (Note: "TLAs" stands for "three-letter acronyms.") We are fond of our TLAs in web design.
 
@@ -621,10 +677,10 @@
 
 - [ ] all of these answersall of these answers
 
-- [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, 
+- [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation,
       logos, and other page identifying content.
 
-- [ ] The `<head>` tag may contain CSS and JavaScript links, while the `<header>` tag may 
+- [ ] The `<head>` tag may contain CSS and JavaScript links, while the `<header>` tag may
       contain headings and navigational links.
 
 > ### Q40. What are the best examples of void elements?
@@ -654,7 +710,8 @@
 - [ ] `<input><label><meter>`
 - [ ] `<input><option><textarea>`
 - [x] `<li><input><option>`
-> ### Q44. What's the best way to apply bold styling to text?
+
+  > ### Q44. What's the best way to apply bold styling to text?
 
 - [x] `<strong>`
 - [ ] `Use CSS.`
@@ -668,10 +725,11 @@
 - [x] when linking style sheets and favicons
 - [ ] when linking style sheets, external URLs, and favicons
 
-## Credit: 
-* https://www.w3schools.com/ 
-* https://developer.mozilla.org/en-US/ 
-* https://google.com
-* https://linkedIn.com
+## Credit:
+
+- https://www.w3schools.com/
+- https://developer.mozilla.org/en-US/
+- https://google.com
+- https://linkedIn.com
 
 ### [(⬆ Back to Top of the page)](#Linkedin-Assessments-HTML)

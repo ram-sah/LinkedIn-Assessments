@@ -9,12 +9,12 @@ button.addEventListener('click', function(e) {
 ```
 - [ ]   e.stopReload();
 
-- [x]	e.preventDefault();
+- [x] e.preventDefault();
 
 - [ ]   e.Preventdefault();
 
 - [ ]   e.PreventDefault{};
- 
+
 > ### Q2. Which statement references the DOM node created by the code shown?
  ```js
  <p class="pull">Lorem Ipsum </p>
@@ -27,7 +27,7 @@ button.addEventListener('click', function(e) {
 - [x] document.querySelector(".pull");
 
 - [ ] document.querySelector("#pull");
- 
+
 > ### Q3. Which statement is the correct way to create a variable called rate and assign it the value 100?
 
 - [ ] Var Rate = 100;
@@ -37,7 +37,7 @@ button.addEventListener('click', function(e) {
 - [ ] Let rate = 100;
 
 - [x] let rate = 100;
- 
+
 > ### Q4. When would the final statement in the code shown be logged to the console?
 ```js
 let modal = document.querySelector('#results');
@@ -54,7 +54,7 @@ console.log('Results shown');
 - [ ] after 10000 sec
 
 - [ ] after 10 sec
- 
+
 > ### Q5. Which statement creates a new object using the Person constructor?
 
 - [ ] var student = new person();
@@ -64,7 +64,7 @@ console.log('Results shown');
 - [x] var student = new Person();
 
 - [ ] var student = Person();
- 
+
 > ### Q6. When would you use a conditional statement?
 
 - [ ] When you want to reuse a set of statements multiple times.
@@ -74,7 +74,7 @@ console.log('Results shown');
 - [ ] When you want to group data together.
 
 - [ ] When you want to loop through a group of statement.
- 
+
 > ### Q7. How is forEach statement different from a for statement?
 
 - [ ] Only a for statement uses a callback function.
@@ -84,9 +84,9 @@ console.log('Results shown');
 - [ ] Only a forEach statement lets you specify your own iterator.
 
 - [ ] A forEach statement is generic, but a for statement ca be used only with an array.
- 
+
 > ### Q8. Review the code below. Which statement calls the addTax function and passes 50 as the argument?
- 
+
 - [ ] addTax = 50;
 
 - [ ] return addTax 50;
@@ -96,13 +96,13 @@ console.log('Results shown');
 - [ ] addTax 50;
 
 > ### Q9. What is the result in the console of running the code shown?
-```js 
+```js
 var Storm = function () {};
 Storm.prototype.precip = 'rain';
 var WinterStorm = function () {};
 WinterStorm.prototype = new Storm();
 WinterStorm.prototype.precip = 'snow';
-var bob = new WinterStorm(); 
+var bob = new WinterStorm();
 
 console.log(bob.precip);
 ```
@@ -114,7 +114,7 @@ console.log(bob.precip);
 
 - [x] 'snow'
 
- 
+
 > ### Q10. How does a function create a closure?
 
 - [ ] It reloads the document whenever the value changes.
@@ -200,78 +200,78 @@ var b = (a = 3) ? true : false;
 
 > ### Q17. Which of the following values is not a Boolean false?
 
-- [ ] Boloean(0)	
+- [ ] Boloean(0)
 
-- [x] Boolean(“false”)	
+- [x] Boolean(“false”)
 
-- [ ] Boolean(NaN)	
+- [ ] Boolean(NaN)
 
 - [ ] Boolean(“”)
- 
+
 > ### Q18. Which of these is a valid variable name?
 
-- [ ] 5thItem	
+- [ ] 5thItem
 
-- [x] firstName		
+- [x] firstName
 
-- [ ] function		
+- [ ] function
 
 - [ ] grand total
- 
+
 > ### Q19. Why would you choose an asynchronous structure for your code ?
-- [ ] To use ES6 syntax		
+- [ ] To use ES6 syntax
 
 - [ ]  Start task that might take some time without blocking subsequence tasks from executing immediately.
 
-- [x] To ensure that tasks further down in your code aren’t initiated until earlier tasks have completed 
+- [x] To ensure that tasks further down in your code aren’t initiated until earlier tasks have completed
 
-- [ ] To use JavaScript ES6 syntax	
+- [ ] To use JavaScript ES6 syntax
 
 > ### Q20. What is the HTTP verb to the request the contents of the existing resource ?
 
-- [ ] Delete	
+- [ ] Delete
 
-- [x] get 		
+- [x] get
 
-- [ ] path		
+- [ ] path
 
-- [ ] post 
+- [ ] post
 
 > ### Q21. Which variable defining keyword allows its variable to be accused (as undefined ) before the line that defines it?
 
-- [ ] const 	
+- [ ] const
 
-- [ ] var 	
+- [ ] var
 
-- [x] let 	
+- [x] let
 
-- [ ] all of them  
+- [ ] all of them
 
 > ### Q22. What two values will this code print ?
 ```js
 function printA() {
-console.log(answer); 
+console.log(answer);
 var answer = 1; }
 printA();
 printA();
 ```
-- [ ]	1 then 1 	
+- [ ] 1 then 1
 
-- [ ] 1 then undefined 
+- [ ] 1 then undefined
 
-- [ ] undefined then undefined 
+- [ ] undefined then undefined
 
 - [x] undefined  then 1
 
 > ### Q23. Which of the following is not a keyword JavaScript?
 
-- [ ] catch 	
+- [ ] catch
 
-- [ ] this	 	
+- [ ] this
 
-- [ ] function 		
+- [ ] function
 
-- [ ] array 
+- [ ] array
  
 > ### Q24. How would you reference the text 'avenue' in the code shown?
 ```js
@@ -357,9 +357,129 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 
 - [ ] 1
 
-## Credit: 
-* https://www.w3schools.com/ 
-* https://developer.mozilla.org/en-US/ 
+>### Q32. What does the typeof operator in JavaScript return for an array?
+- [x] "object"
+- [ ] "array"
+- [ ] "string"
+- [ ] "number"
+
+>### Q33. Which of the following statements is used to declare a variable in JavaScript?
+- [ ] let myVar;
+- [ ] var myVar;
+- [ ] const myVar;
+- [x] All of the above
+
+>### Q34. What is the purpose of the parseInt() function in JavaScript?
+- [x] To convert a string to an integer
+- [ ] To round a number to the nearest integer
+- [ ] To concatenate two strings
+- [ ] To find the length of a string
+
+>### Q35. How can you prevent a JavaScript function from being called immediately when the page loads?
+- [ ] Wrap the function in an immediately invoked function expression (IIFE)
+- [ ] Use the setTimeout function
+- [ ] Add the defer attribute to the script tag
+- [x] Both a and c
+
+>### Q36. What is the result of the following expression: "5" + 2?
+- [ ] 7
+- [x] "52"
+- [ ] 52
+- [ ] TypeError
+
+>### Q37. Which of the following is used to iterate over the properties of an object in JavaScript?
+- [ ] for loop
+- [ ] while loop
+- [ ] forEach loop
+- [x] for...in loop
+
+>### Q38. What is the purpose of the bind() method in JavaScript?
+- [x] To bind a function to a specific context
+- [ ] To create a new array
+- [ ] To concatenate two strings
+- [ ] To convert a string to uppercase
+
+>### Q39. What does the this keyword refer to in JavaScript?
+- [ ] The current function
+- [ ] The global object
+- [x] The object that owns the code
+- [ ] The parent function
+
+>### Q40. What is the difference between let and const when declaring variables in JavaScript?
+- [x] let variables can be reassigned, while const variables cannot
+- [ ] const variables can be reassigned, while let variables cannot
+- [ ] Both let and const variables can be reassigned
+- [ ] Neither let nor const variables can be reassigned
+
+>### Q41.How do you comment a single line of code in JavaScript?
+- [ ] <!-- comment -->
+- [x] // comment
+- [ ] /* comment */
+- [ ] -- comment --
+
+>### Q42. What is the purpose of the Array.map() method in JavaScript?
+- [ ] To filter elements in an array
+- [X] To create a new array with the results of calling a provided function on every element
+- [ ] To remove elements from an array
+- [ ] To sort elements in an array
+
+>### Q43. What does the event.preventDefault() method do in JavaScript?
+- [ ] Stops the propagation of an event to parent elements
+- [x] Cancels the default action of an event
+- [ ] Triggers the default action of an event
+- [ ] Clears all event listeners
+
+>### Q44. Which operator is used for strict equality comparison in JavaScript?
+- [ ] ==
+- [x] ===
+- [ ] =
+- [ ] !==
+
+>### Q45. What is the purpose of the 'Promise' object in JavaScript?
+- [x] To represent a value that may be available now, or in the future, or never
+- [ ] To create a one-time event
+- [ ] To handle synchronous operations
+- [ ] To declare a constant variable
+
+>### Q46. How can you convert a JavaScript object to a JSON string?
+- [ ] JSON.parse()
+- [x] JSON.stringify()
+- [ ] object.stringify()
+- [ ] object.parse()
+
+>### Q47. What is the purpose of the 'localStorage' object in JavaScript?
+- [ ] To store session-specific data
+- [x] To store data that persists across browser sessions
+- [ ] To store temporary data
+- [ ] To store server-side data
+
+>### Q48. What is the role of the 'try', 'catch', and 'finally' blocks in JavaScript?
+- [ ] To define a function
+- [x] To handle exceptions in code
+- [ ] To create a loop
+- [ ] To declare variables
+
+>### Q49. Which method is used to add an element to the end of an array in JavaScript?
+- [x] push()
+- [ ] pop()
+- [ ] shift()
+- [ ] unshift()
+
+>### Q50. What is the purpose of the 'fetch()' function in JavaScript?
+- [x] To fetch data from a remote server using AJAX
+- [ ] To create a new array
+- [ ] To iterate over the elements of an array
+- [ ] To modify the DOM
+
+>### Q51. What is the difference between 'let' and 'var' when declaring variables in JavaScript?
+- [x] let has block scope, while var has function scope
+- [ ] var has block scope, while let has function scope
+- [ ] Both let and var have block scope
+- [ ] Both let and var have function scope
+
+## Credit:
+* https://www.w3schools.com/
+* https://developer.mozilla.org/en-US/
 * https://google.com
 * https://linkedIn.com
 
