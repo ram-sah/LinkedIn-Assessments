@@ -1,6 +1,6 @@
 # JQuery Assignment
 
->### Q1. Given this checkbox, how can you determine whether a user has selected or cleared the checkbox? 
+>### Q1. Given this checkbox, how can you determine whether a user has selected or cleared the checkbox?
 `<input type="checkbox" id="same-address" checked>`
 
 - [ ] by checking the value of $('#same-address').checked
@@ -11,7 +11,7 @@
 
 - [ ] by checking the value of $('#same-address').val()
 
->### Q2. The following page snippet includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from an API endpoint using AJAX. How can you add these new items to the message-area--list element in the most performant way? 
+>### Q2. The following page snippet includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from an API endpoint using AJAX. How can you add these new items to the message-area--list element in the most performant way?
 ```js
 <div class="message-area">
    <ul class="message-area--list">
@@ -31,7 +31,7 @@ $.get('//example.com/api/v1/messages')
    	$('.message-area--list').append('<li>'+item+'</li>');
 	});
 
-[ ] CSS.$messageList = $('.message-area--list');
+[x] CSS.$messageList = $('.message-area--list');
 	$.each(tonsOfItems, function(idx, item) {
 	$('<li>'+item+'</li>').appendTo($messageList);
 	});
@@ -65,7 +65,7 @@ $.get('//example.com/api/v1/messages')
 </ul>
 ```
 ```js
-[ ] $('.menu-first > li')
+[x] $('.menu-first > li')
 	.first()
 	.css('font-weight', 'bold')
 	.next()
@@ -89,7 +89,7 @@ $.get('//example.com/api/v1/messages')
 	.after()
 	.css('font-style', 'oblique');
 ```
->### Q5. Given this snippet of HTML and jQuery code, what does the jQuery do? 
+>### Q5. Given this snippet of HTML and jQuery code, what does the jQuery do?
 ```html
 <ul class="menu">
    <li><a href="#" class="active">Home</a></li>
@@ -112,13 +112,13 @@ m.css('font-weight', 'bold');
 
 - [ ] It makes the first set of menu items, not the second, bold.
 
-- [ ] It makes all the menu items bold.
+- [x] It makes all the menu items bold.
 
->### Q6. What does this line of code do? 
+>### Q6. What does this line of code do?
 ```js
 jQuery('p');
 ```
-- [ ] aliases jQuery to a variable paliases 
+- [ ] aliases jQuery to a variable paliases
 
 - [ ] creates a new paragraph tag and inserts it into the body tag
 
@@ -126,7 +126,7 @@ jQuery('p');
 
 - [ ] loads a paragraph tag from a remote server using AJAX
 
->### Q7. What is the difference between the two lines that follow the HTML snippet below? 
+>### Q7. What is the difference between the two lines that follow the HTML snippet below?
 ```html
 <ul>
    <li>Item 1</li>
@@ -139,7 +139,7 @@ jQuery('p');
 $('ul').find('li').get(2);
 $('ul').find('li').eq(2);
 ```
-- [ ] .get() retrieves a DOM element and is 0-indexed. .eq() retrieves a jQuery object and is 1-indexed.
+- [x] .get() retrieves a DOM element and is 0-indexed. .eq() retrieves a jQuery object and is 1-indexed.
 
 - [ ] .get() retrieves a DOM element and cannot be chained. .eq() retrieves a jQuery object and can be chained.
 
@@ -170,7 +170,7 @@ $('#main-menu').click(function(event) { console.log('Main menu got a click'); } 
 
 [ ] event.capture();
 ```
->### Q9. The way .wrap() works is sometimes misunderstood. Given the DOM and jQuery snippets below, what does the modified DOM snippet look like? 
+>### Q9. The way .wrap() works is sometimes misunderstood. Given the DOM and jQuery snippets below, what does the modified DOM snippet look like?
 ```js
 <div id="container">
    <div class="item">Here's an item</div>
@@ -196,7 +196,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 	</div>
 	</div>
 
-[ ]	<div class="wrapper">
+[x]	<div class="wrapper">
 	<div id="container" style="border: 2px solid red;">
 		<div class="item">Here's an item</div>
 	</div>
@@ -214,7 +214,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
    });
 ```
 ```js
-[ ] $.get('http://httpbin.org/delay/2')
+[x] $.get('http://httpbin.org/delay/2')
    .then(function(response) {
       // Data from first GET is here as `response`
       return $.get('http://httpbin.org/delay/2');
@@ -242,7 +242,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
       // Data from second GET is here as `response`
    });
 ```
->### Q11. How can you select the following blockquote and the list in a single call to `jQuery()` without chaining? 
+>### Q11. How can you select the following blockquote and the list in a single call to `jQuery()` without chaining?
 ```html
 <div class="quotes">
    <blockquote data-favorite="false">A quote</blockquote>
@@ -281,7 +281,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 
 [ ] $('.btn-primary').show(false);
 ```
->### Q13. There are many ways to create elements that can be added to the page. Which answer is not one of those ways, assuming you have the following on the page? 
+>### Q13. There are many ways to create elements that can be added to the page. Which answer is not one of those ways, assuming you have the following on the page?
 ```html
 <div id="elements"></div>
 ```
@@ -291,7 +291,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
    'text': "As an attribute object"
 	}));
 
-[ ] $("#elements").append(<p className="appended">As a JSX object</p>));
+[x] $("#elements").append(<p className="appended">As a JSX object</p>));
 
 [ ] $("#elements").append($('<p class="appended">As an HTML string</p>'));
 
@@ -304,19 +304,19 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 
 - [ ] Read the change notes for the newer version of jQuery, fix all scripts, install the newer version, and fix anything that remains broken.
 
-- [ ] Install the newer version of jQuery, go through each script one by one, and fix what looks broken.
+- [x] Install the newer version of jQuery, go through each script one by one, and fix what looks broken.
 
 - [ ] Install the newer version of jQuery at the same time, and use `jQuery.noConflict()` on pages that need the older version.
 
 - [ ] Install the newer version of jQuery as well as its Migrate plugin, fix all warnings, and uninstall the Migrate plugin.
 
->### Q15. The .addClass() and .removeClass() methods can accept functions as arguments. What does this function do? 
+>### Q15. The .addClass() and .removeClass() methods can accept functions as arguments. What does this function do?
 ```js
 $('#menu').addClass(function() {
         return $('body').attr('class');
 });
 ```
-- [ ] It adds all classes found on the #menu element to the body tag.
+- [x] It adds all classes found on the #menu element to the body tag.
 
 - [ ] It adds all classes found on the body element to the #menu element.
 
@@ -324,10 +324,10 @@ $('#menu').addClass(function() {
 
 - [ ] It replaces any classes on the #menu element with all classes from the body tag.
 
->### Q16. Working with AJAX, you may have a piece of code that should not be run until after multiple AJAX calls have completed successfully. Suppose you need to call two external services for JSON data—a list of students and a list of classes—after which you will perform some manipulations on a page. What is the preferred way for dealing with this scenario? 
+>### Q16. Working with AJAX, you may have a piece of code that should not be run until after multiple AJAX calls have completed successfully. Suppose you need to call two external services for JSON data—a list of students and a list of classes—after which you will perform some manipulations on a page. What is the preferred way for dealing with this scenario?
 ```js
 https://example.com/json-api/students
-https://example.com/json-api/classes 
+https://example.com/json-api/classes
 ```
 ```js
 [ ] $.bind(
@@ -337,7 +337,7 @@ https://example.com/json-api/classes
 	// the rest of the code goes here
 	});
 
-[ ]	$.when(
+[x]	$.when(
 	$.get('https://example.com/json-api/students'),
 	$.get('https://example.com/json-api/classes')
 	).done(function(studentRequest, classRequest) {
@@ -358,7 +358,7 @@ https://example.com/json-api/classes
 	// the rest of the code goes here
 	});
 ```
->### Q17. Using event delegation, you can listen for events on a lot of different items without having to attach separate listeners to each one. But there are times when you may want to check the type of item receiving the event before doing anything, such as checking if an image was clicked versus a text field. Given the starter code below, which choice shows what jQuery provides to help with that process? 
+>### Q17. Using event delegation, you can listen for events on a lot of different items without having to attach separate listeners to each one. But there are times when you may want to check the type of item receiving the event before doing anything, such as checking if an image was clicked versus a text field. Given the starter code below, which choice shows what jQuery provides to help with that process?
 ```html
 <div id="sidebar">
     <img src="fancy-button.png" alt="Pick Me">
@@ -378,7 +378,7 @@ $('#sidebar').click(function(evt) {
 
 [ ] $($target.get(0) + ':image')
 
-[ ] $target.is('img')
+[x] $target.is('img')
 ```
 >### Q18. Given this HTML code, how can you use one line to show the button if it is hidden, and hide it if it is visible?
 ```html
@@ -391,9 +391,9 @@ $('#sidebar').click(function(evt) {
 
 [ ] $('.btn-primary').not(':visible').show();
 
-[ ] $('.btn-primary').toggle();
+[x] $('.btn-primary').toggle();
 ```
->### Q19. Given this set of checkboxes, how can you select the one with the value of "blimp"? 
+>### Q19. Given this set of checkboxes, how can you select the one with the value of "blimp"?
 ```js
 <input type="checkbox" name="songs[]" value="satisfaction">
 <input type="checkbox" name="songs[]" value="respect">
@@ -404,7 +404,7 @@ $('#sidebar').click(function(evt) {
 ```js
 [ ] $('input[value!="blimp"]');
 
-[ ] $('input[value="blimp"]');
+[x] $('input[value="blimp"]');
 
 [ ] $('input:checkbox').attr('value', 'blimp');
 
@@ -415,7 +415,7 @@ $('#sidebar').click(function(evt) {
 
 - [ ] jQuery.extend, which can merge objects and make complete deep copies of objects
 
-- [ ] jQuery.isMobile, which can tell whether the user is using a mobile browser
+- [x] jQuery.isMobile, which can tell whether the user is using a mobile browser
 
 - [ ] jQuery.isNumeric, which can check whether its argument is, or looks like, a number
 
@@ -429,7 +429,7 @@ $('#sidebar').click(function(evt) {
 
 [ ] $('a').data('href', 'http://www.example.com')
 
-[ ] $('a').attr('href', 'http://www.example.com')
+[x] $('a').attr('href', 'http://www.example.com')
 ```
 >### Q22. Given the following CSS and HTML codes below, how could you apply the success class to the feedback div?
 ```html
@@ -458,7 +458,7 @@ background: #ddffdd;
 ```js
 [ ] $('body').on('ajaxComplete', function() { console.count('An AJAX request completed'); });
 
-[ ] $(document).ajaxComplete(function() { console.count('An AJAX request completed'); });
+[x] $(document).ajaxComplete(function() { console.count('An AJAX request completed'); });
 
 [ ] $(document).on('ajax.complete', function() { console.count('An AJAX request completed'); });
 
@@ -479,24 +479,24 @@ background: #ddffdd;
 
 [ ] $(this).animate({ top: '100', left: '100', }, 600, function() { $(this).animate({ top: 0, left: 0, }, 600) } });
 ```
->### Q26. You want to take an element and any event handlers that go with it out of the DOM to do some work—without the changes affecting the rest of the page—and then move it somewhere else in the DOM, like right after the opening tag. What should go on the first line of this code snippet? 
+>### Q26. You want to take an element and any event handlers that go with it out of the DOM to do some work—without the changes affecting the rest of the page—and then move it somewhere else in the DOM, like right after the opening tag. What should go on the first line of this code snippet?
 ```js
-// what goes here?    
+// what goes here?
 // ... do some other hidden work on $example
 $example.prependTo(document.body);
 ```
 ```js
-var $example = $('#example').detach();
+[x] var $example = $('#example').detach();
 
-var $example = $('#example').remove();
+[ ] var $example = $('#example').remove();
 
-var $example = $('#example').addBack().empty();
+[ ] var $example = $('#example').addBack().empty();
 
-var $example = $('#example').clone();
+[ ] var $example = $('#example').clone();
 ```
 >### Q27. How can you get an AJAX request to go through without triggering any of jQuery's AJAX events?
 
-[ ] Set the option "global" to false.
+[x] Set the option "global" to false.
 
 [ ] Set a success callback that returns false.
 
@@ -538,7 +538,7 @@ var $example = $('#example').clone();
 
 [ ] $('.animate-me').offsetParent();`
 ```
->### Q29. As with many areas of JavaScript, keeping track of the meaning of this is important—and sometimes tricky. What does this mean at each of the two points in this custom plugin snippet? 
+>### Q29. As with many areas of JavaScript, keeping track of the meaning of this is important—and sometimes tricky. What does this mean at each of the two points in this custom plugin snippet?
 ```js
 $.fn.customPlugin = function() {
    // Point 1
@@ -556,13 +556,13 @@ $(document).customPlugin();
 
 [ ] In this case, they mean the same thing: a jQuery object.
 
-[ ] At Point 1, this means a DOM element. At Point 2, it means a jQuery object.
+[x] At Point 1, this means a DOM element. At Point 2, it means a jQuery object.
 ```
 >### Q30. How do you change the current value of a text field with the class .form-item to "555-1212"?
 ```js
 [ ] $('.form-item').set('value', '555-1212');
 
-[ ] $('.form-item').val('555-1212');
+[x] $('.form-item').val('555-1212');
 
 [ ] $('.form-item').data('value', '555-1212');
 
@@ -572,7 +572,7 @@ $(document).customPlugin();
 
 -[ ] It is a utility function that selects the first element from the document.
 
--[ ] It is an alias to the main core method of jQuery itself—the same as writing jQuery().
+-[x] It is an alias to the main core method of jQuery itself—the same as writing jQuery().
 
 -[ ] It is a shorter way to write document.getElementById().
 
@@ -593,5 +593,5 @@ $(document).customPlugin();
 
 [ ] $('input[value|="sun"]');
 
-[ ] $('input[value*="sun"]');
+[x] $('input[value*="sun"]');
 ```
